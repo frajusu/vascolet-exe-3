@@ -1,0 +1,1825 @@
+{
+  "files": [
+    {
+      "path": "assets/audio/fx/win/aceite_1.ogg",
+      "bytes": 17306,
+      "sha256": "d2d2e77845484cf59c2c20130c6c6a17e4ab1a6c2abb89d14e7093403d6dd578"
+    },
+    {
+      "path": "assets/audio/fx/win/achievment.ogg",
+      "bytes": 25974,
+      "sha256": "7353d559612c37ba6348586b30fd82001aeecb124e82df571e48d2c29f9e4f9d"
+    },
+    {
+      "path": "assets/audio/fx/win/barro.ogg",
+      "bytes": 23516,
+      "sha256": "9cb9e73e26b3279ca82b224e6269acab44c4541900b25ec7f703922869561976"
+    },
+    {
+      "path": "assets/audio/fx/win/cereal.ogg",
+      "bytes": 17008,
+      "sha256": "a501428d6024f834093d0b537af2028fda02b576deb327807dda52da44a48911"
+    },
+    {
+      "path": "assets/audio/fx/win/choque_borde.ogg",
+      "bytes": 7938,
+      "sha256": "482acf7c40deefe9170ae7ed6e186db155d493ccd116c8412f384d2289dc29d4"
+    },
+    {
+      "path": "assets/audio/fx/win/click_1.ogg",
+      "bytes": 4680,
+      "sha256": "0afcb9ef3028bd5c93c389e29e349a9798a55a6f3d05dd1a1d1712ae64b5ec29"
+    },
+    {
+      "path": "assets/audio/fx/win/click_2.ogg",
+      "bytes": 4835,
+      "sha256": "274b76ff629d79d90d4b99453efadcc696928029db4f446cb60e04146d71facd"
+    },
+    {
+      "path": "assets/audio/fx/win/coin.ogg",
+      "bytes": 7688,
+      "sha256": "d316b74a9b72097c10ea40aff59bb0d03a8dddf94b230484cb1621d7c391750e"
+    },
+    {
+      "path": "assets/audio/fx/win/coin2.ogg",
+      "bytes": 7089,
+      "sha256": "848c9d4eedfdf07dc95633a365375497eef7e3c0155dc7af39b2f2b9f047f557"
+    },
+    {
+      "path": "assets/audio/fx/win/coin3.ogg",
+      "bytes": 7734,
+      "sha256": "455c8a756dbd3275edddf4e3cb31192cd6c8cda482934acf80ced9642ae81a34"
+    },
+    {
+      "path": "assets/audio/fx/win/coin4.ogg",
+      "bytes": 7423,
+      "sha256": "ec3f7c018beae36d270e9fe58594ccb40f8d1e17adabd2e7b1490c14cff4a637"
+    },
+    {
+      "path": "assets/audio/fx/win/compra-2.ogg",
+      "bytes": 9568,
+      "sha256": "0de418c95ac916e411d7d5828479d64236c3deb9d2ac6cc715bb75267b78e799"
+    },
+    {
+      "path": "assets/audio/fx/win/compra_1.ogg",
+      "bytes": 6037,
+      "sha256": "2ed059cdd2052f04e677861fda419d55c8ad8643fc19534f17ed6a9b1c27b8f7"
+    },
+    {
+      "path": "assets/audio/fx/win/cortina.ogg",
+      "bytes": 9337,
+      "sha256": "4a9a6e6a149f9806bd1b81dbf4b79f48ab286e459879d91d604f008856bada40"
+    },
+    {
+      "path": "assets/audio/fx/win/derrape.ogg",
+      "bytes": 6631,
+      "sha256": "b18c5666cea9e7ec3e81a28b42834d22bd2b971847b34e2c3b56603622e8c6b8"
+    },
+    {
+      "path": "assets/audio/fx/win/estrella.ogg",
+      "bytes": 9369,
+      "sha256": "f2b4fd043b67f12ea17ff71717d2a9d80afad454cd1abe00bd6200a5739978fb"
+    },
+    {
+      "path": "assets/audio/fx/win/extraLife.ogg",
+      "bytes": 20684,
+      "sha256": "7c89c331da182718993d1716ec217ca31dbecbaba61dbced725c4b318a5cf18e"
+    },
+    {
+      "path": "assets/audio/fx/win/linea_resultado.ogg",
+      "bytes": 12674,
+      "sha256": "530237ebb68a20869235189f8e2da279633a10fd1f711b4941513346952637e4"
+    },
+    {
+      "path": "assets/audio/fx/win/lose_race.ogg",
+      "bytes": 51868,
+      "sha256": "a400453df3752d71ee23a6923d75cc1af561e4185e2ed982cb1796ee98ec6b82"
+    },
+    {
+      "path": "assets/audio/fx/win/misil_1.ogg",
+      "bytes": 12299,
+      "sha256": "69da28b3a066f0184526894e2201d8c6787c74b93b5fcf05ed50570fc51e2dc7"
+    },
+    {
+      "path": "assets/audio/fx/win/misil_2.ogg",
+      "bytes": 17568,
+      "sha256": "c90776bbb00e2095c9edc9452663c2fa768b3455b54e0d3009e449557e51c822"
+    },
+    {
+      "path": "assets/audio/fx/win/nube-negra.ogg",
+      "bytes": 32748,
+      "sha256": "df33ac9f64b5bd18f20720aa4f2248d41a464d264e014f6714e4c7d5f2c95aa7"
+    },
+    {
+      "path": "assets/audio/fx/win/pajaros_1.ogg",
+      "bytes": 21639,
+      "sha256": "97395ff0d1fcbe69ce34adcd189ca58978fb49b52d8ac6f8577b4624f248b001"
+    },
+    {
+      "path": "assets/audio/fx/win/pajaros_2.ogg",
+      "bytes": 34243,
+      "sha256": "3cb8c198b76ad0fbfca06e104dd6ceaa45556a1f44e5b103a8f9561fe733be51"
+    },
+    {
+      "path": "assets/audio/fx/win/pum_1.ogg",
+      "bytes": 4273,
+      "sha256": "d4f553d8411802254b65aef70a694c671c47f5b52e1217ac0f68e8a3e9b009c5"
+    },
+    {
+      "path": "assets/audio/fx/win/pum_2.ogg",
+      "bytes": 6015,
+      "sha256": "af03636dc1a63e3c5132022362e286cf866b94c0e269aa0dab2b0cf523d53606"
+    },
+    {
+      "path": "assets/audio/fx/win/pum_3.ogg",
+      "bytes": 8427,
+      "sha256": "4f7e5b89ce982dc2e3bf7f33605bf6b43052edb63e0c9a6f6ac11664354026dd"
+    },
+    {
+      "path": "assets/audio/fx/win/salto.ogg",
+      "bytes": 7357,
+      "sha256": "040aa9948944864d878228ee97ad79afdc3a6c75de07c077b75098b189867f36"
+    },
+    {
+      "path": "assets/audio/fx/win/semaforo_a.ogg",
+      "bytes": 10388,
+      "sha256": "86009e03c87627e8a9eb1083b97e951937852b1ea26f821f21a1a3d53f9b539c"
+    },
+    {
+      "path": "assets/audio/fx/win/semaforo_b.ogg",
+      "bytes": 13130,
+      "sha256": "6ffb6e2eac9337c2fd258f93b92d3bee41f583aeba4e22a398417b8632931c45"
+    },
+    {
+      "path": "assets/audio/fx/win/v1-1-b.ogg",
+      "bytes": 5720,
+      "sha256": "efcbb337864290dfea12237698c1341337705d33052eab62fd3aa845d544b55c"
+    },
+    {
+      "path": "assets/audio/fx/win/v1-2-b.ogg",
+      "bytes": 5815,
+      "sha256": "205c38bb49c3f875c3e07ba512fc16e213131630cfc163ac94e1a4e1283b89d1"
+    },
+    {
+      "path": "assets/audio/fx/win/v1-3-b.ogg",
+      "bytes": 6099,
+      "sha256": "bace4d2730ad47e69238032f140004968a8d968438171dce6a337cf787ee2c65"
+    },
+    {
+      "path": "assets/audio/fx/win/v1-4-b.ogg",
+      "bytes": 5113,
+      "sha256": "e8ed7ac0b9d7b77680dd96730174ba664b04ea9d9a0d88fcdb1efd18dc5ac251"
+    },
+    {
+      "path": "assets/audio/fx/win/v1-5-b.ogg",
+      "bytes": 4892,
+      "sha256": "6665eb3834dfe5aa54aae81a7c60193d9a452f8773b0af5309ee790e7c59509d"
+    },
+    {
+      "path": "assets/audio/fx/win/v1-6-b.ogg",
+      "bytes": 5192,
+      "sha256": "f1c6b2822bd610d73d72d061bdf2ac9abf1a89006482a04694c9ccd53a422d41"
+    },
+    {
+      "path": "assets/audio/fx/win/v1-turbo.ogg",
+      "bytes": 7351,
+      "sha256": "dd95d3e2f315582ff67cde42a32ebf8a750647108e24b39c209fee50faf7d029"
+    },
+    {
+      "path": "assets/audio/fx/win/v5-1-b.ogg",
+      "bytes": 9656,
+      "sha256": "4a47ba8fb9badf4db8684f11fc2f700e62ac0bcb5c15599f2cb97f7d24dbdb62"
+    },
+    {
+      "path": "assets/audio/fx/win/v5-2-b.ogg",
+      "bytes": 12880,
+      "sha256": "8c7c567a755e5723174f3eed73febb5f4d78a7f3fb93407c7ce69de3193db8a5"
+    },
+    {
+      "path": "assets/audio/fx/win/v5-3-b.ogg",
+      "bytes": 8910,
+      "sha256": "f09db1448a159b1d2cc11aa8cf5349fbfcbe358aa9079b555777ea0b0ddab246"
+    },
+    {
+      "path": "assets/audio/fx/win/v5-4-b.ogg",
+      "bytes": 16952,
+      "sha256": "11c67107796dafb6e096c8b3a6bcc08b5eac6c2630771529ffcad6c752a0f4c3"
+    },
+    {
+      "path": "assets/audio/fx/win/v5-5-b.ogg",
+      "bytes": 6015,
+      "sha256": "1e1640b2a7c0a49444d50947cb01b2f46b6915c18cf5dbaf78beb906861fcfc8"
+    },
+    {
+      "path": "assets/audio/fx/win/v5-6-b.ogg",
+      "bytes": 7554,
+      "sha256": "a9f9c7f514db6c1ab025f593cda655e46ac1ce6d285b69d4f27dc1bef93069f2"
+    },
+    {
+      "path": "assets/audio/fx/win/v5-turbo.ogg",
+      "bytes": 32807,
+      "sha256": "29a9942c5b7970ccecce5d74b3e05c810bb7a4535f13bb92f058f22a9e65ab83"
+    },
+    {
+      "path": "assets/audio/fx/win/v5_1.ogg",
+      "bytes": 8188,
+      "sha256": "f880da38eca0eb0bf1f427fdd6575f772090eecb52ac46e0524c085132a0f633"
+    },
+    {
+      "path": "assets/audio/fx/win/v5_2.ogg",
+      "bytes": 8163,
+      "sha256": "f8a836c818457fe521be2b64766767af4a03aecf9e2a1bd9af41dd849fdeca5e"
+    },
+    {
+      "path": "assets/audio/fx/win/v5_3.ogg",
+      "bytes": 8183,
+      "sha256": "adbec2b4b4dea4ab1dd1efd0a59e3a287014050945b60adfa856ca8419d8b172"
+    },
+    {
+      "path": "assets/audio/fx/win/v5_4.ogg",
+      "bytes": 6233,
+      "sha256": "c9ee70d2c929faa35a99e2548d55bf3f13f741f71ca3097ef7c0795636f6d2cf"
+    },
+    {
+      "path": "assets/audio/fx/win/v5_5.ogg",
+      "bytes": 6308,
+      "sha256": "7220754ecbda6428b8f7371cea2662ecd920f030528aa5f5dabb1fda4cd43cdf"
+    },
+    {
+      "path": "assets/audio/fx/win/v5_6.ogg",
+      "bytes": 5532,
+      "sha256": "40fca93f367c20ec566d60faf901721955dc547a1b63e87b7b77c559cdaaf88f"
+    },
+    {
+      "path": "assets/audio/fx/win/win_race.ogg",
+      "bytes": 56576,
+      "sha256": "b863b5c8f962bf2e097c3f220b039150155d894d6b2f7caadfef3e1720dccc93"
+    },
+    {
+      "path": "assets/audio/music/win/africa.ogg",
+      "bytes": 743009,
+      "sha256": "a0583223a2b950d8b7b73f3169e9679403f92684ec19a12af9969c27ffd03b28"
+    },
+    {
+      "path": "assets/audio/music/win/antartida.ogg",
+      "bytes": 895849,
+      "sha256": "3b432f6831a942a9faae0aec554a8ef0886982e85e88c696b01b68671582d384"
+    },
+    {
+      "path": "assets/audio/music/win/australia.ogg",
+      "bytes": 732518,
+      "sha256": "9ad32c7b819dd938d5c05ab1badd1f8c719fd409a3af907d83875e847af07224"
+    },
+    {
+      "path": "assets/audio/music/win/belice.ogg",
+      "bytes": 891135,
+      "sha256": "3a65dec749180705c88d5dfc4e49699c1055f4804f6b4955d8e4990c3ea5fb45"
+    },
+    {
+      "path": "assets/audio/music/win/brasil.ogg",
+      "bytes": 796026,
+      "sha256": "22d88a2e6ce567387aad3856c85a5d4845e16dae69136b329bf24bf42329102b"
+    },
+    {
+      "path": "assets/audio/music/win/china.ogg",
+      "bytes": 793281,
+      "sha256": "54f33cbfd5eb137adcf6e37cae0a377755b04da55c9b5bfc4a4db556f7fe48be"
+    },
+    {
+      "path": "assets/audio/music/win/egipto.ogg",
+      "bytes": 1017157,
+      "sha256": "5dae43ddd9ed37765ba81db5ed890eecc60dc6d731deef08a937c782703e1d83"
+    },
+    {
+      "path": "assets/audio/music/win/europa.ogg",
+      "bytes": 921391,
+      "sha256": "2281711f0e6f891c4b80b827f6dd27fad05cb40b808aa2a35eb854ff75bf6371"
+    },
+    {
+      "path": "assets/audio/music/win/golem.ogg",
+      "bytes": 393717,
+      "sha256": "9b578441eaca26d266988273e39a5552a47b97b5d8904f4aa66fb260013f5774"
+    },
+    {
+      "path": "assets/audio/music/win/iguana.ogg",
+      "bytes": 278459,
+      "sha256": "8194aff22654f3758010d20e6e77e1e137d430ec4693f9051c1ba6be1c0aca52"
+    },
+    {
+      "path": "assets/audio/music/win/intro_malmark.ogg",
+      "bytes": 182740,
+      "sha256": "1917d070fbe717d55bc972f01df1066daf4e146202fa35d51a9d6d95787b5498"
+    },
+    {
+      "path": "assets/audio/music/win/malmark.ogg",
+      "bytes": 810654,
+      "sha256": "6f3de9dbed7e2ab29b52830ecc7e01af31d115217ffe223c4b71337466faba0c"
+    },
+    {
+      "path": "assets/audio/music/win/menu.ogg",
+      "bytes": 596437,
+      "sha256": "7c0f7a5aefc03a0750eefa82828173f987c23142ffdb6b83fff5fc3d4656bee7"
+    },
+    {
+      "path": "assets/audio/music/win/momia.ogg",
+      "bytes": 290944,
+      "sha256": "6c61db7cf2af8afa98a6094818daaf272c4a9a35b25160b0f9bcb8997f5cdbd7"
+    },
+    {
+      "path": "assets/audio/music/win/uruguay.ogg",
+      "bytes": 760476,
+      "sha256": "87842be8d6d650822ded5f58e2adde81310b315d6227480015d5c64f1847dbc7"
+    },
+    {
+      "path": "assets/audio/music/win/usa.ogg",
+      "bytes": 804749,
+      "sha256": "76c6664d8ce3e7c3787021ce09c1767a7c9d84f6f19462ad0a15cc169298b039"
+    },
+    {
+      "path": "assets/audio/music/win/win_game.ogg",
+      "bytes": 376556,
+      "sha256": "8d14e4a6f33a2c4d1fe1568ddae99bbd44ba972a6e271ab8dc7c46b83578488b"
+    },
+    {
+      "path": "assets/audio/music/win/win_malmark.ogg",
+      "bytes": 151030,
+      "sha256": "0951e8dee3e92ce7f5900364c88c471fff68e95a6e7867c1d17cbb1aeb869622"
+    },
+    {
+      "path": "assets/data/animationAssets/endRaceAssets.xml",
+      "bytes": 962,
+      "sha256": "623c0260b7c50dd4519d6c378b9d58f292a2a81393654ce83ce199bf0fcf8803"
+    },
+    {
+      "path": "assets/data/animationAssets/golemAssets.xml",
+      "bytes": 911,
+      "sha256": "630a6aeb553b67248b0eb5fc4fe305114b425c70ca2052740b17c8855565a151"
+    },
+    {
+      "path": "assets/data/animationAssets/iguanaAssets.xml",
+      "bytes": 893,
+      "sha256": "fa392a8e136f073829c53749c61896e7144d387c670527a738f21724cc2641b9"
+    },
+    {
+      "path": "assets/data/animationAssets/introAssets.xml",
+      "bytes": 989,
+      "sha256": "721e1c404dcd97efa4f43c0ec55ff147421d6848e87cc32312af4b535dffe110"
+    },
+    {
+      "path": "assets/data/animationAssets/malmarkAssets.xml",
+      "bytes": 930,
+      "sha256": "c4643eaf7b0396b4f76302af8a0d7a8773f76fdb3b3ece27a0483bbf2f48e4b1"
+    },
+    {
+      "path": "assets/data/animationAssets/momiaAssets.xml",
+      "bytes": 889,
+      "sha256": "175524d95f7cf9016464cb978d59df235ffe32b22b4c00a07990d13093650bcd"
+    },
+    {
+      "path": "assets/data/animationAssets/warningAssets.xml",
+      "bytes": 423,
+      "sha256": "30372b7c856636914a777965e02c73b9f9dc0fb7f2653414b59fb80747693d43"
+    },
+    {
+      "path": "assets/data/animationAssets/winGameAssets.xml",
+      "bytes": 1189,
+      "sha256": "7f3b708dcb28bb2a5713f2b77ace916abc93dd667f71147cd021f203d8ae79d2"
+    },
+    {
+      "path": "assets/data/animationAssets/winMalmarkAssets.xml",
+      "bytes": 1198,
+      "sha256": "5e582bb16df113fbe4532f7ffc800bba2d8fa5fd93979762c911fd33f5eed81a"
+    },
+    {
+      "path": "assets/data/animationAssets/winV1Assets.xml",
+      "bytes": 948,
+      "sha256": "a390c593b241d4e7b85ebe051e159cda8fafde632a89e19b05dead27e61bc469"
+    },
+    {
+      "path": "assets/data/animationAssets/winV5Assets.xml",
+      "bytes": 929,
+      "sha256": "0739bbf1d1668da4a842f084c2698c2c87d7f9094835f3c3f942d75268542dd9"
+    },
+    {
+      "path": "assets/data/generalAssets.xml",
+      "bytes": 5976,
+      "sha256": "256966f7a02f2ae14686659d0f2942002e9bac3fa2ce5bc70fd5ca597a86d57f"
+    },
+    {
+      "path": "assets/data/levelAssets/levelAssets1.xml",
+      "bytes": 1120,
+      "sha256": "67726acb8f976f5142b1d7de19a76d9687cc82b55a42aac05ce42c9433407276"
+    },
+    {
+      "path": "assets/data/levelAssets/levelAssets10.xml",
+      "bytes": 1152,
+      "sha256": "63e82a69187deadb61090c46ddc778ade311a1cdb143f67157e7a5260d1a91d3"
+    },
+    {
+      "path": "assets/data/levelAssets/levelAssets11.xml",
+      "bytes": 1151,
+      "sha256": "4e7a2944cbcb0b16e4ca78bfdc8c56c727deacc0609e01c65321fa1f8066702e"
+    },
+    {
+      "path": "assets/data/levelAssets/levelAssets2.xml",
+      "bytes": 1128,
+      "sha256": "e2615e4d6dc4e1d52b09a15946814475159326ec5c02854c4c9d59edb08f55d9"
+    },
+    {
+      "path": "assets/data/levelAssets/levelAssets3.xml",
+      "bytes": 1114,
+      "sha256": "87a89b8fcf1451f1d0bde6cb9a1212bb2e731c3ec2f9b87b6637d7311d8b3776"
+    },
+    {
+      "path": "assets/data/levelAssets/levelAssets4.xml",
+      "bytes": 1152,
+      "sha256": "ae48d90c7946b060bae8a31c5c1f15c4648907f53929a53dac14348547656dd5"
+    },
+    {
+      "path": "assets/data/levelAssets/levelAssets5.xml",
+      "bytes": 1132,
+      "sha256": "c96d351be76e2772f6f6ad430a34754241cf1c6072133438d5c3e58a293edbbd"
+    },
+    {
+      "path": "assets/data/levelAssets/levelAssets6.xml",
+      "bytes": 1128,
+      "sha256": "07f882d7fd58ab8891a136209a2cadd1c3def9bb668cbc639d43b36e44049684"
+    },
+    {
+      "path": "assets/data/levelAssets/levelAssets7.xml",
+      "bytes": 1131,
+      "sha256": "8c748299ae90e7ee90771a5c1afd8fc8168684d6322d41772084938aeea64f91"
+    },
+    {
+      "path": "assets/data/levelAssets/levelAssets8.xml",
+      "bytes": 1147,
+      "sha256": "e9c51358b18262bb456ab3f58f3f2dc4ca7c625a7bef6cb826a3cc01d9b19898"
+    },
+    {
+      "path": "assets/data/levelAssets/levelAssets9.xml",
+      "bytes": 1135,
+      "sha256": "c1e3826722208c7e2dc0fd1f3581979078fb89bda42947e4899fda329c78734a"
+    },
+    {
+      "path": "assets/data/luaScripts/animlibraries.lua",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "assets/data/luaScripts/config.lua",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "assets/data/luaScripts/imagelibraries.lua",
+      "bytes": 175,
+      "sha256": "0f7e6d7b67c556ada8b8e21543bf80257e13c79dd946b6663af67fa77ef54703"
+    },
+    {
+      "path": "assets/data/luaScripts/soundlibraries.lua",
+      "bytes": 3246,
+      "sha256": "346a6031883c0927734ece36a7d73858980aaa8a68802db1574731a586d8cbaa"
+    },
+    {
+      "path": "assets/data/scalableGeneralAssets.xml",
+      "bytes": 5349,
+      "sha256": "585fd9945c5aa7215175f44c2058adc65477f455925551ab1ab2deb2dab0d9f6"
+    },
+    {
+      "path": "assets/data/texts.xml",
+      "bytes": 13921,
+      "sha256": "2757f06ecd42f565b40959de2e04fbffc7c9f4febd347c84555a04dd3f98b2de"
+    },
+    {
+      "path": "assets/data/tracks/scalableAssets1.xml",
+      "bytes": 7292,
+      "sha256": "f9ba66746714dcff479386ca33357f749dbc5b7b606de9bb8ff5e1d81759eea6"
+    },
+    {
+      "path": "assets/data/tracks/scalableAssets10.xml",
+      "bytes": 14950,
+      "sha256": "2f725cd9c9fa19c3404d5e9e8a5d155a1d61da026a3c61461eee5441ebf829f0"
+    },
+    {
+      "path": "assets/data/tracks/scalableAssets11.xml",
+      "bytes": 17742,
+      "sha256": "957a2b15f0832b90c53989cedf672d43bed890a64869b759692c849718de6760"
+    },
+    {
+      "path": "assets/data/tracks/scalableAssets2.xml",
+      "bytes": 8500,
+      "sha256": "4ae1e4931110eb2abbeab3572301283bdca9e8954c5748ca17e9e1fa09d357bd"
+    },
+    {
+      "path": "assets/data/tracks/scalableAssets3.xml",
+      "bytes": 9646,
+      "sha256": "019f6a1f4a30c5829c070737a26265189b2b88d8c243e0e1df3291cf42ef8648"
+    },
+    {
+      "path": "assets/data/tracks/scalableAssets4.xml",
+      "bytes": 11195,
+      "sha256": "7e070a0f23746988aac278d9d6e26b8b9d36872c61dbc5555d059d4cbd38d372"
+    },
+    {
+      "path": "assets/data/tracks/scalableAssets5.xml",
+      "bytes": 11406,
+      "sha256": "1ca55934c16ad6031766faa3c779ac705e642535d9df3b430d4ffbb30e59de32"
+    },
+    {
+      "path": "assets/data/tracks/scalableAssets6.xml",
+      "bytes": 11200,
+      "sha256": "db823798bfc3c9e13fb75a8112d42aa07fdccea7b5c88f550c9bea8deb8998ed"
+    },
+    {
+      "path": "assets/data/tracks/scalableAssets7.xml",
+      "bytes": 6412,
+      "sha256": "0b80912e41157985fcf720531e824aad92ccaf6f33e1d6456d6bfb533a9fcc92"
+    },
+    {
+      "path": "assets/data/tracks/scalableAssets8.xml",
+      "bytes": 12175,
+      "sha256": "60457e85c58cfd6800af3734afcbcf64b45110b006603810699acacb98844e4b"
+    },
+    {
+      "path": "assets/data/tracks/scalableAssets9.xml",
+      "bytes": 14098,
+      "sha256": "49c19e4bfdd6c0941b322cbddf6bac816c6b6e8292c2c134bc56c50bc2b2b96a"
+    },
+    {
+      "path": "assets/data/tracks/track1.xml",
+      "bytes": 2541,
+      "sha256": "887ac4508b228b8a9441e7509a3164b40243adc552e318cb97add0b9cf9b5ed0"
+    },
+    {
+      "path": "assets/data/tracks/track10.xml",
+      "bytes": 5177,
+      "sha256": "0298427b1e821dc46396b73a4fd29048667b9c59facbd95206912a8f7cf6fc18"
+    },
+    {
+      "path": "assets/data/tracks/track11.xml",
+      "bytes": 5302,
+      "sha256": "a95f679bf20af0e5b45741aa6e01044d5652a335d8c2538ec45de3aa921c7893"
+    },
+    {
+      "path": "assets/data/tracks/track2.xml",
+      "bytes": 2870,
+      "sha256": "1736dd0ba029618fb87203a2f96163339a83186b55500e5139abc543b19cb018"
+    },
+    {
+      "path": "assets/data/tracks/track3.xml",
+      "bytes": 3101,
+      "sha256": "db21ed0df133918b36473647732dba9e2f41b38a5850cc376495d51ff5afe392"
+    },
+    {
+      "path": "assets/data/tracks/track4.xml",
+      "bytes": 3449,
+      "sha256": "451c38c155a3c524b3bac030f8c5690335897cfd90ccb4553750150ae5523c53"
+    },
+    {
+      "path": "assets/data/tracks/track5.xml",
+      "bytes": 3593,
+      "sha256": "48a9bb4fe5772ec9745872027349b84f52d94b8bc9fa36d04120fd5d47cb29ab"
+    },
+    {
+      "path": "assets/data/tracks/track6.xml",
+      "bytes": 3826,
+      "sha256": "fa33dc375db2cb7a3ecee50ccf84c3b9f07d0efb1e6241309aa9bc17f14dbc4a"
+    },
+    {
+      "path": "assets/data/tracks/track7.xml",
+      "bytes": 3973,
+      "sha256": "9bed94e96319d454563d8da1028dde15857488a00c04b440b27acc7ee034f778"
+    },
+    {
+      "path": "assets/data/tracks/track8.xml",
+      "bytes": 4355,
+      "sha256": "ae0a27578d50341311f451fcb95a0c3156851ca748404e3f4b24cde14b60f3a0"
+    },
+    {
+      "path": "assets/data/tracks/track9.xml",
+      "bytes": 4703,
+      "sha256": "525ad392ac9e300809549d629d2f37bf6d613cefb0e2ccb2df868bb77cf48d6b"
+    },
+    {
+      "path": "assets/gui/credits/credits.png",
+      "bytes": 224856,
+      "sha256": "cab9f4ccc5030d0a0d55b9078854e179d72c8d2b53367d7c04b1ea1cebb4a49c"
+    },
+    {
+      "path": "assets/gui/credits/credits.xml",
+      "bytes": 149,
+      "sha256": "6e7fd060e79afe95f78bebf53c10a2ffdaad932d5f9157abd4ce935c54267e34"
+    },
+    {
+      "path": "assets/gui/help/help.png",
+      "bytes": 345748,
+      "sha256": "c64eeae02f257512b18403eadbc387f37f842db9b740f0bc5b5317d0f8813dfd"
+    },
+    {
+      "path": "assets/gui/help/help.xml",
+      "bytes": 143,
+      "sha256": "36f267ac362cf0ac21fee9bd4999efe545b0ac7301888efa1732a106d56a492b"
+    },
+    {
+      "path": "assets/gui/menu/background.PNG",
+      "bytes": 323638,
+      "sha256": "87f42664ff73830169defa6033ae2b1e2810801a1f6c1b635ad0ab4e8e44c905"
+    },
+    {
+      "path": "assets/gui/menu/background.xml",
+      "bytes": 155,
+      "sha256": "013035baa2ff4256b6cbb2a1b0f5df7dfa96fbf27d7a56906a7612d965ff9ab0"
+    },
+    {
+      "path": "assets/gui/menu/botonIngresarCodigo.png",
+      "bytes": 27389,
+      "sha256": "4d6f1b428878a7ff830a0670f52208f4eff6147bd60a15ffd194b51ad795eb5d"
+    },
+    {
+      "path": "assets/gui/menu/exit-game.png",
+      "bytes": 3723,
+      "sha256": "fdb91d88c2cd324e2be55e37d533f94c9800724a34686e1af2c23ee79bb1038c"
+    },
+    {
+      "path": "assets/gui/menu/exit-game.xml",
+      "bytes": 155,
+      "sha256": "82bc09cbfeb319729cb879375e6176cd2cf18677e77ab5208ae7bff61bfa4ec3"
+    },
+    {
+      "path": "assets/gui/menu/menu.png",
+      "bytes": 127214,
+      "sha256": "888aa9d167acf21c719cfcc08097337d054bc31eb0dd1d0a2f54c84ee413e56d"
+    },
+    {
+      "path": "assets/gui/menu/menu.xml",
+      "bytes": 3476,
+      "sha256": "c0e623a683e759b7ccb59591d2dd8705c24a09cce2014c25d23c36d30203566f"
+    },
+    {
+      "path": "assets/gui/options/options.png",
+      "bytes": 233853,
+      "sha256": "7f059c6ad2a759496d2c9814e726a71ae42ec6f51cf50222edea20d8e78c1852"
+    },
+    {
+      "path": "assets/gui/options/options.xml",
+      "bytes": 1474,
+      "sha256": "5b98ffa0b2b96e892dfd2580e04372ac6997fc648848499593746e471c4492c9"
+    },
+    {
+      "path": "assets/images/atentionScreen.jpg",
+      "bytes": 202083,
+      "sha256": "40025b9407c768bb0f1dde9d783a73f36fa792cb5675d0afc1659fb5217bdfda"
+    },
+    {
+      "path": "assets/images/botones.png",
+      "bytes": 38646,
+      "sha256": "ed897b7618ccbe0ea84786b8affdabc0bd9bc975756653b9484b56fab37f2553"
+    },
+    {
+      "path": "assets/images/brokenCar.png",
+      "bytes": 50236,
+      "sha256": "2b4aafb31b0e3788303879f53da7409157a92e11113c71fb78ce014c0a8fb3ff"
+    },
+    {
+      "path": "assets/images/coin/bowl.png",
+      "bytes": 98616,
+      "sha256": "5f34112d541ef7bf1ca62c901b69916e45c1ad30097e92403c88703f769de451"
+    },
+    {
+      "path": "assets/images/coin/bowl.xml",
+      "bytes": 2948,
+      "sha256": "330bfdc73d5a625b1a81b5766a498535fc58b9c5dd93b7b1486f0ce31a91cb28"
+    },
+    {
+      "path": "assets/images/coin/moneda.png",
+      "bytes": 26932,
+      "sha256": "66fdae64d7a6b2edd9aebf8fef40b9ee81a7d37cf6a5774e5be31dc8ee1adcaf"
+    },
+    {
+      "path": "assets/images/coin/moneda.xml",
+      "bytes": 3056,
+      "sha256": "dd786a37ae16f2471dea3227c77da352edf6e394ad32f4a6ecd5c21113b58121"
+    },
+    {
+      "path": "assets/images/coin/vaso.png",
+      "bytes": 69274,
+      "sha256": "45f4f70f9a794dd5b6697d4ae81713ceaa9065d38719e49d0ee9f9e21f1cea83"
+    },
+    {
+      "path": "assets/images/coin/vaso.xml",
+      "bytes": 2938,
+      "sha256": "ab8ff7b1685ce7b7948e85b53c21d76c4516cc65864d895a0f41f231e0aa2dd1"
+    },
+    {
+      "path": "assets/images/cortina.png",
+      "bytes": 349621,
+      "sha256": "6098a11343a0546b8f402874d1859357337c76d09c0ae500cca180bfb4e549c3"
+    },
+    {
+      "path": "assets/images/crash.png",
+      "bytes": 45471,
+      "sha256": "a9b69c305685807e47427682fe2626d755e7c0e7bc3652230b3bf887c0cab1d7"
+    },
+    {
+      "path": "assets/images/explosion.png",
+      "bytes": 53857,
+      "sha256": "9d8b4cd5a5eaf6ab79c6f225c8201d88a475cec58f07a9559b23bf8d1bea5bb4"
+    },
+    {
+      "path": "assets/images/genericBackground.jpg",
+      "bytes": 28741,
+      "sha256": "e75d4442c68ae06592fddc033b523a8c6b841660d0785246b5f6f926d9f9c3d7"
+    },
+    {
+      "path": "assets/images/introGolem/background.jpg",
+      "bytes": 50989,
+      "sha256": "7613cca8929c76ee3477454a245c8efd95f5d41556a2fec28822a712e44ce3bf"
+    },
+    {
+      "path": "assets/images/introGolem/frame01Tile.jpg",
+      "bytes": 86311,
+      "sha256": "7e4141e911f637b81228166a29701f0e63b09e506c367639467910b4170cb559"
+    },
+    {
+      "path": "assets/images/introGolem/frame02Tile.jpg",
+      "bytes": 211882,
+      "sha256": "00a5ea27276447b4e71a9ed0b60e75de14c16d35c0d7d650d56613de1feab1c1"
+    },
+    {
+      "path": "assets/images/introGolem/frame03Tile.jpg",
+      "bytes": 157956,
+      "sha256": "55d6aa61d617afb2dd28d2fdf17450f85e934b89b1237e689a0332b1722a337b"
+    },
+    {
+      "path": "assets/images/introIguana/background.jpg",
+      "bytes": 49509,
+      "sha256": "28f19462845f28b2255da3214f6c9c24bb928eebf1b5022c5b5d4ae579ad6f45"
+    },
+    {
+      "path": "assets/images/introIguana/backgroundReference.jpg",
+      "bytes": 170630,
+      "sha256": "109e79b09a7c930f645d1eb341317bef287964ca21ba17461f2f6a9508d86304"
+    },
+    {
+      "path": "assets/images/introIguana/frame01Tile.jpg",
+      "bytes": 109688,
+      "sha256": "038570fb85c41a943be7c20618211de92b442ccf7c1ecdd882ea64121dc45174"
+    },
+    {
+      "path": "assets/images/introIguana/frame02Tile.jpg",
+      "bytes": 167688,
+      "sha256": "54632c8180b1ef57283107169754dc7b71bff645aa839b7f2cd5991561fee330"
+    },
+    {
+      "path": "assets/images/introIguana/frame03Tile.jpg",
+      "bytes": 161369,
+      "sha256": "2d9aa0da42ad7ffc105649a0f096bcb1ae82c28fcdae5600a338a5ad36522d38"
+    },
+    {
+      "path": "assets/images/introMomia/background.jpg",
+      "bytes": 33377,
+      "sha256": "38c4cfad36854bfdb3fb4e65cb6e8e7af02254ade3131740f266993645ca4977"
+    },
+    {
+      "path": "assets/images/introMomia/frame01Tile.jpg",
+      "bytes": 251270,
+      "sha256": "019306b3c91dd8f9d6ebb1191b54f10f0f98047b3f0fbb697bb896fef6cdccab"
+    },
+    {
+      "path": "assets/images/introMomia/frame02Tile.jpg",
+      "bytes": 202115,
+      "sha256": "0be00e22cb57a4179aa7abc9f67dafc1537d8fe14fae7ca14373ca0a3c8adacc"
+    },
+    {
+      "path": "assets/images/introMomia/frame03Tile.jpg",
+      "bytes": 160182,
+      "sha256": "7d6cb038c33022d45befc676378a246e63e5a6a0c0767d8f37fcbee56f01e9b8"
+    },
+    {
+      "path": "assets/images/introSequence/backgroundGarage.jpg",
+      "bytes": 63580,
+      "sha256": "1e35f718cfd0a903aba9693678f7ddc517643bbce672b1d11e3651eea7d3f38f"
+    },
+    {
+      "path": "assets/images/introSequence/frame01Tile.jpg",
+      "bytes": 151994,
+      "sha256": "e323fb73db26b585b53f4567f55e07f401d7d1f8a5abd725a76b67c8ae340be4"
+    },
+    {
+      "path": "assets/images/introSequence/frame02Tile.jpg",
+      "bytes": 471938,
+      "sha256": "ff3936c9c3f3fddd073af285edfe5fad0b77eef39e761110c74fd5103beb63d7"
+    },
+    {
+      "path": "assets/images/introSequence/frame03Tile.jpg",
+      "bytes": 871569,
+      "sha256": "50f27b1a8e5c03ae4d5374af4f300e2808d8cf8420e6473846ac964fb1227f7b"
+    },
+    {
+      "path": "assets/images/levelSelect/levelSelect.xml",
+      "bytes": 2181,
+      "sha256": "0446b869adba2c9488dfdd852f49ebd9a5c79422f524b46eba0490f636eda4cf"
+    },
+    {
+      "path": "assets/images/levelsIcons.png",
+      "bytes": 20899,
+      "sha256": "992032f066f22773f22ef6ea964bb810d051263bab7047287b9ab72d19c14846"
+    },
+    {
+      "path": "assets/images/load/loadingAssets.xml",
+      "bytes": 614,
+      "sha256": "50a5fc9bbb5d9cabfdd0f042374664de10498a9c986643ccdbff6fc523655f45"
+    },
+    {
+      "path": "assets/images/malmarkSequence/background.jpg",
+      "bytes": 101485,
+      "sha256": "9613a1fe6cc5b7dfd433d0b7981cc69da4eee11c18546668252fec8caf348cdc"
+    },
+    {
+      "path": "assets/images/malmarkSequence/reference.jpg",
+      "bytes": 136037,
+      "sha256": "fee0bd998cb5933ddf602ebb750feb6a66a710efdbaa8b76d79c7ee0cca52aa9"
+    },
+    {
+      "path": "assets/images/malmarkSequence/sequenceTileFrame01.jpg",
+      "bytes": 373990,
+      "sha256": "abfd3387ba0f2161c300dc7b9276a2c0fb4f2c9c3effa1ec3ac41250ad829bb6"
+    },
+    {
+      "path": "assets/images/malmarkSequence/sequenceTileFrame02.jpg",
+      "bytes": 689534,
+      "sha256": "2e810c91b7305b54a62cd91fef25a0908a740dcd5205b470bdd33cdaeba21e76"
+    },
+    {
+      "path": "assets/images/malmarkSequence/sequenceTileFrame03.jpg",
+      "bytes": 286052,
+      "sha256": "e2bfc8f0f7dbddb52d5396c21bfd416b6e038d632531beb7b9bb3a24925e6fec"
+    },
+    {
+      "path": "assets/images/mapa.jpg",
+      "bytes": 191350,
+      "sha256": "33526bd55306025c53f7595c3b4cc9c34a6bdf5822dc866f37fedc5ed0b6aabb"
+    },
+    {
+      "path": "assets/images/misil.png",
+      "bytes": 5265,
+      "sha256": "36a8f1a956c9cf201165a96384d3222426e7023d85d816f19a3af0e412aa9c4e"
+    },
+    {
+      "path": "assets/images/obstacles.png",
+      "bytes": 57464,
+      "sha256": "a31588ba15440dc96463e5a3d9a0007099709f3bbfaffe182abacc6c31ce849c"
+    },
+    {
+      "path": "assets/images/puntero.png",
+      "bytes": 2149,
+      "sha256": "178f08d98326f3f6d5950800774fbb4fe8faf2ff5378e9ea145fad7ce1589776"
+    },
+    {
+      "path": "assets/images/racing/achievements/achievementsAssets.xml",
+      "bytes": 641,
+      "sha256": "3fc6c03c57b619d3ee8dbd3657c45ab45796063f684e5af313b5af40dec77558"
+    },
+    {
+      "path": "assets/images/racing/achievements/background.jpg",
+      "bytes": 135604,
+      "sha256": "8e93529c207b1d409354d0609e84a55a1c9ac39bd8934b0387fd6e1181b00a64"
+    },
+    {
+      "path": "assets/images/racing/achievements/barra.png",
+      "bytes": 17128,
+      "sha256": "4e0e8212cddb33031ef3c901986300bda337afc809531c860356a4a5179ceaba"
+    },
+    {
+      "path": "assets/images/racing/achievements/barra_not.png",
+      "bytes": 12327,
+      "sha256": "4b6d0ea61556ea05686be21ae62066ef34603bd1653834da67bb2f8b287b9981"
+    },
+    {
+      "path": "assets/images/racing/achievements/botones.png",
+      "bytes": 12470,
+      "sha256": "0bb2f8774eeb7226fd08b3d3015495839ddad91ebcc488e451632ef5068ac5d6"
+    },
+    {
+      "path": "assets/images/racing/achievements/icons.png",
+      "bytes": 142034,
+      "sha256": "08efa90a5540edd10b4e7b7855ce75dd92937f622bbb5345df55a88ccd04e532"
+    },
+    {
+      "path": "assets/images/racing/Antartida/mobile_sky.jpg",
+      "bytes": 54649,
+      "sha256": "ecec7d1efd1782f7e6463003742e914f4309fca4bbd07c4af24e712af6edafb1"
+    },
+    {
+      "path": "assets/images/racing/Antartida/near_sky.png",
+      "bytes": 134644,
+      "sha256": "b69da6ce24f58d296a4511060d419752e20e456770940d14669c5c15a644ce3a"
+    },
+    {
+      "path": "assets/images/racing/Antartida/road_1.jpg",
+      "bytes": 39113,
+      "sha256": "55d8868f29e39665cbb57bc046dfaa7ee511fd08a098ca42ef6551354d8ab80b"
+    },
+    {
+      "path": "assets/images/racing/Antartida/road_2.jpg",
+      "bytes": 36315,
+      "sha256": "be7dac2ea7d4d4a7bd4bd038dc8f43bbd99b2ab62e289ff2d681587bfc9115d4"
+    },
+    {
+      "path": "assets/images/racing/Antartida/sky.jpg",
+      "bytes": 6081,
+      "sha256": "5ce9b8802e0899b8ab1dd639b6981fa77cb4a6b09a5f10a9bd80a20fdfc48d1c"
+    },
+    {
+      "path": "assets/images/racing/Antartida/SO1.png",
+      "bytes": 194274,
+      "sha256": "a56dcc3e321983b36ddc7984d309d52719e73e98d6936dd9c3f427fa9e617bd7"
+    },
+    {
+      "path": "assets/images/racing/Antartida/SO2.png",
+      "bytes": 143688,
+      "sha256": "7e99f88db72f6c33466eed8682791378eede971747db3ce280244c8912aac70e"
+    },
+    {
+      "path": "assets/images/racing/Antartida/SO3.png",
+      "bytes": 159123,
+      "sha256": "07ea09fefbf715ad6531fe0aa9acf6e53637642bfd00e64c1ea4560ea0de6d8c"
+    },
+    {
+      "path": "assets/images/racing/Antartida/SO4.png",
+      "bytes": 56959,
+      "sha256": "cd28289764da59e62d7552c447a83a8093821a567280ac30af21799eb9efc8ed"
+    },
+    {
+      "path": "assets/images/racing/Australia/mobile_sky.jpg",
+      "bytes": 38349,
+      "sha256": "70c0fad599407f6e963d6545b039088fbc161afbf2f8e92219c6f6866a217131"
+    },
+    {
+      "path": "assets/images/racing/Australia/near_sky.png",
+      "bytes": 79846,
+      "sha256": "548dad53f257abc1efa33aab002f1ca9e250b2fa32c2ee6e1a3701d0a11c17ac"
+    },
+    {
+      "path": "assets/images/racing/Australia/road_1.jpg",
+      "bytes": 33015,
+      "sha256": "e4c19e8da18920523efab26781ded9a084c15c479c0917f10e100ff28bf5b2e8"
+    },
+    {
+      "path": "assets/images/racing/Australia/road_2.jpg",
+      "bytes": 31726,
+      "sha256": "f42b0fa76fb8db3642aee37a341e16afd06348100d6fce580448dcc92e0ed885"
+    },
+    {
+      "path": "assets/images/racing/Australia/sky.jpg",
+      "bytes": 17565,
+      "sha256": "bbdb74a92502d76b1a32f3eb29912c92206f5a4f229a968d0aeaaf1046cc743e"
+    },
+    {
+      "path": "assets/images/racing/back.jpg",
+      "bytes": 73669,
+      "sha256": "2e782ee26bf6ca5994dd7b1c02c4d92a37ef8dd9910843553b8df6ca6d995004"
+    },
+    {
+      "path": "assets/images/racing/Belice/mobile_sky.jpg",
+      "bytes": 53167,
+      "sha256": "81acd0706f75a8e1aee222b832701f83de49420c7311b581121cd34a39b73e97"
+    },
+    {
+      "path": "assets/images/racing/Belice/near_sky.png",
+      "bytes": 138372,
+      "sha256": "eed9157d24a59c1911fe7a211c5e929f2dc7bd9233bfa347c1fd858785e108b9"
+    },
+    {
+      "path": "assets/images/racing/Belice/road_1.jpg",
+      "bytes": 36084,
+      "sha256": "ab8e2927aea5e5d1604bbe675b441d8e92709022ecc1275fb56bae75851f1293"
+    },
+    {
+      "path": "assets/images/racing/Belice/road_2.jpg",
+      "bytes": 44138,
+      "sha256": "4c22b0ee8c93e2a0d4d06295b37a10d6d2d8c52ffffc218c8186316055089b03"
+    },
+    {
+      "path": "assets/images/racing/Belice/sky.jpg",
+      "bytes": 6082,
+      "sha256": "28577fbb857d0e9782a5444c5180cb725207e807294f8df15c58a7653f85d6af"
+    },
+    {
+      "path": "assets/images/racing/Brasil/mobile_sky.jpg",
+      "bytes": 64567,
+      "sha256": "7bfbba27df86db8d3f40336e2de303a285bfc1d153062c28691cbd83569d3647"
+    },
+    {
+      "path": "assets/images/racing/Brasil/near_sky.png",
+      "bytes": 187270,
+      "sha256": "1aabc7bbbabf84c0077a066ec4793f0758c1b0884f9f98d410d95a69bd656ca2"
+    },
+    {
+      "path": "assets/images/racing/Brasil/road_1.jpg",
+      "bytes": 35705,
+      "sha256": "3cf70dcfc0835a3a19ab69cb468036c532f8643b664b28c99ccfbaa55395761f"
+    },
+    {
+      "path": "assets/images/racing/Brasil/road_2.jpg",
+      "bytes": 37978,
+      "sha256": "9fcf1e162af7aa5f33d4eeee9292c4a8bdb458cf862b027fe44b9aaebb86d365"
+    },
+    {
+      "path": "assets/images/racing/Brasil/sky.jpg",
+      "bytes": 16234,
+      "sha256": "deb4a237a08701fca7272e92deb10f4dec9f642abed21169b115cc75b0c7e36d"
+    },
+    {
+      "path": "assets/images/racing/candado.png",
+      "bytes": 1730,
+      "sha256": "c78660478d8bffb0ed253e0078ac5c3b7ad9fda7c46bd2992a829aa4c8f7ab29"
+    },
+    {
+      "path": "assets/images/racing/castle/mobile_sky.jpg",
+      "bytes": 81621,
+      "sha256": "172c28a3b3db721fd907c14e2399aa653fc43f2ba7f54d449e6442ccf267f9b0"
+    },
+    {
+      "path": "assets/images/racing/castle/near_sky.png",
+      "bytes": 207416,
+      "sha256": "899354485b2bc1cd01b7dc409d71e0faf06747a675a921119e1f267dd1be47eb"
+    },
+    {
+      "path": "assets/images/racing/castle/road_1.jpg",
+      "bytes": 34739,
+      "sha256": "b60e381d2df6b4e1397458c6d903967f165e9ab1fc7c233bcd98939b99696b28"
+    },
+    {
+      "path": "assets/images/racing/castle/road_2.jpg",
+      "bytes": 41028,
+      "sha256": "3a82b9516b373aa8eb82137ed42f9abb90adcc34c635b2d53a90b522b9783fd2"
+    },
+    {
+      "path": "assets/images/racing/castle/sky.jpg",
+      "bytes": 1843,
+      "sha256": "6cd42b55740bbe2e91d835d6e61110a0a0eb7965c5b3dead74a73ba41591235f"
+    },
+    {
+      "path": "assets/images/racing/checkpoint.png",
+      "bytes": 80401,
+      "sha256": "4ac6f740a2c576c1e1a5e1c49c75b2c98ff2ee0b208c751e14dd4003e8af47a1"
+    },
+    {
+      "path": "assets/images/racing/China/mobile_sky.jpg",
+      "bytes": 46164,
+      "sha256": "cfff1affe840ff98aaef68fde9daa5d086796d6e9237d78440aa36b765395b60"
+    },
+    {
+      "path": "assets/images/racing/China/near_sky.png",
+      "bytes": 136084,
+      "sha256": "47055a691a6c3a4f160e7e9aac778ffe9f6758305096f37e2bbb859734762788"
+    },
+    {
+      "path": "assets/images/racing/China/road_1.jpg",
+      "bytes": 37914,
+      "sha256": "ff25738d6a36b5ed29a0af3ad142baaeb9f364462a9cc23e823d586ff01f08c8"
+    },
+    {
+      "path": "assets/images/racing/China/road_2.jpg",
+      "bytes": 39291,
+      "sha256": "4abccc37219b07d284e6b5c54ebd43c8711b71452cf40796952459147958c915"
+    },
+    {
+      "path": "assets/images/racing/China/sky.jpg",
+      "bytes": 15956,
+      "sha256": "0e7fcf07faf68daf2819ef3ac7c0d044e574a07b2e3b15af9ae761b66cc2cbe1"
+    },
+    {
+      "path": "assets/images/racing/Egipto/mobile_sky.jpg",
+      "bytes": 45642,
+      "sha256": "d78c484121179f814deae777c83450dfe7389c713dadc50973df045895e09c9f"
+    },
+    {
+      "path": "assets/images/racing/Egipto/near_sky.png",
+      "bytes": 78221,
+      "sha256": "bd1dd16f7434193a58203c7cc29cc0236c5446cc83c959de30f0b0ed60ac88c1"
+    },
+    {
+      "path": "assets/images/racing/Egipto/road_1.jpg",
+      "bytes": 34180,
+      "sha256": "9f9ecc68e05400c8485341f3e06bf5a357551501eddc6efdbb09252e3c170561"
+    },
+    {
+      "path": "assets/images/racing/Egipto/road_2.jpg",
+      "bytes": 42594,
+      "sha256": "e70af3ed0f40a1d83a4b3eabe5061be7635ea4dffc072debd27a183b3e19b619"
+    },
+    {
+      "path": "assets/images/racing/Egipto/sky.jpg",
+      "bytes": 17036,
+      "sha256": "4ac5cfd2c6ba302f204522589b68c9b5d290dc632eb946c97df00373e4f7b4b9"
+    },
+    {
+      "path": "assets/images/racing/faces.png",
+      "bytes": 25969,
+      "sha256": "57dd7caaed73cfee5f755e76c70d8e3464212ae41dc7edfd89be247d337a6949"
+    },
+    {
+      "path": "assets/images/racing/gameUI.png",
+      "bytes": 38100,
+      "sha256": "d9038a53b8983b93f882e1c7785216e58616f394abb6eb71a3bcaddb4ceda252"
+    },
+    {
+      "path": "assets/images/racing/garage/aceleracionV1.png",
+      "bytes": 10504,
+      "sha256": "f220e733321352b1b1f89385640bbaccfa2ec69aa4af111f9f04a0d4846e55b1"
+    },
+    {
+      "path": "assets/images/racing/garage/aceleracionV5.png",
+      "bytes": 13934,
+      "sha256": "ce1c3779b6da221983a7997feb92b016a2a3b00879e3a4e5ba6ce9689b0f02e7"
+    },
+    {
+      "path": "assets/images/racing/garage/botonesUpgrades.png",
+      "bytes": 59136,
+      "sha256": "8ce0ebb34ba4530e11d7c73132c7fc562cae033dd103d1f0b03351f1ebd6c6a4"
+    },
+    {
+      "path": "assets/images/racing/garage/cortina512X384.png",
+      "bytes": 354169,
+      "sha256": "42489414e0d11ff0aa5010dc056b94438971bb1a4f2eb8534a30b62eb07cc893"
+    },
+    {
+      "path": "assets/images/racing/garage/frenosV1.png",
+      "bytes": 7402,
+      "sha256": "bbe17243a8092b50fea70d7307f838385246c65f482fafbc9d833a2664233307"
+    },
+    {
+      "path": "assets/images/racing/garage/frenosV5.png",
+      "bytes": 11065,
+      "sha256": "65052922966ed6dd039b33cf3f6d860b3ce7933a80264f5049ab7b36d09fcd22"
+    },
+    {
+      "path": "assets/images/racing/garage/garage_hack_bear_kismo.jpg",
+      "bytes": 193729,
+      "sha256": "ef1f3bb8352b11b4e365a2177f43bd18db1679745260cf34d5f60b4c60a7a5b3"
+    },
+    {
+      "path": "assets/images/racing/garage/garageAssets.xml",
+      "bytes": 3562,
+      "sha256": "a57f3f9987e00e2d81f1d966938dd0304a913e9a83cf62da1d3c28baa900f563"
+    },
+    {
+      "path": "assets/images/racing/garage/garageV1.jpg",
+      "bytes": 221136,
+      "sha256": "d580f416e505e617f8c231617a97da61659ca1fd35a11a6b9c69c237ee903623"
+    },
+    {
+      "path": "assets/images/racing/garage/garageV5.jpg",
+      "bytes": 230830,
+      "sha256": "a5826df39bd3acf0337025ecaabce4f985c18a17f84cff85ad703dc62a221f6b"
+    },
+    {
+      "path": "assets/images/racing/garage/powerUpsTile.png",
+      "bytes": 26235,
+      "sha256": "835d6ca4373e3b710899d56fcf12fafc640e20c74a530280dcd448f3fe2b31d0"
+    },
+    {
+      "path": "assets/images/racing/garage/refGarage.jpg",
+      "bytes": 259025,
+      "sha256": "b0b7e2ecb569a46d1cffbc6c1e8050ba83d692f373357c8087b62ebc303625d3"
+    },
+    {
+      "path": "assets/images/racing/garage/ruedasV1.png",
+      "bytes": 6905,
+      "sha256": "24158033e63c240634377f4206b73283c0818884479e120a7e92c133881e3354"
+    },
+    {
+      "path": "assets/images/racing/garage/ruedasV5.png",
+      "bytes": 11154,
+      "sha256": "e0260d01ac2dad7570c4611e118da02fc72e7f1446433ad5b45a10a9c5341eb0"
+    },
+    {
+      "path": "assets/images/racing/garage/upgradesLevels.png",
+      "bytes": 2913,
+      "sha256": "62afbe8ba72c4f40e434f7e445af5e82b4f69d0778a8ea6238a37f08600d6833"
+    },
+    {
+      "path": "assets/images/racing/garage/velocidadV1.png",
+      "bytes": 11383,
+      "sha256": "0f84d40ed09f668d65ee0602cd04be00da6aa8be153f4cd7a2ca84b9de6fa40c"
+    },
+    {
+      "path": "assets/images/racing/garage/velocidadV5.png",
+      "bytes": 11122,
+      "sha256": "4abafa97d1f02386561e56143d656976c9d2d53709ae8ff0e9e96364d6c04b8f"
+    },
+    {
+      "path": "assets/images/racing/General_SO1.png",
+      "bytes": 100101,
+      "sha256": "affb0f5c2db264582aa9da322f9e05cd835c3950616b94483352255bca5e753b"
+    },
+    {
+      "path": "assets/images/racing/General_SO2.png",
+      "bytes": 239192,
+      "sha256": "4afac93b5c899b7d7a4f13c272beb2ba3bd3531a193017ee4e72f6495ca71453"
+    },
+    {
+      "path": "assets/images/racing/General_SO3.png",
+      "bytes": 168420,
+      "sha256": "123ee8c138bf1217acd386431c88950ae76118848c30e79f345dbada688eaf99"
+    },
+    {
+      "path": "assets/images/racing/General_SO4.png",
+      "bytes": 151289,
+      "sha256": "f6deb6f868dc9be452f6c7180ea03ea15b651bbb8f2083286b4caa3daf569434"
+    },
+    {
+      "path": "assets/images/racing/General_SO5.png",
+      "bytes": 55234,
+      "sha256": "0a94624ab20ad8ec526d0eb06cb1ccba342944b7e8420b23857c305d8319605c"
+    },
+    {
+      "path": "assets/images/racing/info/background.jpg",
+      "bytes": 199861,
+      "sha256": "00f117a2e8ce3f64a544868050584fac90abad4fe69ee22012403a966a00dea0"
+    },
+    {
+      "path": "assets/images/racing/info/elements.png",
+      "bytes": 164617,
+      "sha256": "033b8a2899c46189465f126b6ee4cc41352397afe1a6a481bb660c1ed2cd13e0"
+    },
+    {
+      "path": "assets/images/racing/info/info.xml",
+      "bytes": 2039,
+      "sha256": "565c83ff133e06920bd417e52fadc88427dd067c1093bc47399019e8eadc97f8"
+    },
+    {
+      "path": "assets/images/racing/info/levelCapture.jpg",
+      "bytes": 108554,
+      "sha256": "01f26246f13fd3557fa49911a8c54a028118ef646429090cfc2c99cfd74124aa"
+    },
+    {
+      "path": "assets/images/racing/Italia/mobile_sky.jpg",
+      "bytes": 58540,
+      "sha256": "da0f63df117110b157f7890195737d6ac8dc819a31c2f5f47a85dfd8e158d187"
+    },
+    {
+      "path": "assets/images/racing/Italia/near_sky.png",
+      "bytes": 119510,
+      "sha256": "6325a6b0f0f32d4c7d92ea3ea75d5036d36018a9111f5893faac8b34f81f7801"
+    },
+    {
+      "path": "assets/images/racing/Italia/road_1.jpg",
+      "bytes": 32561,
+      "sha256": "ff6f64d6493720d27f8c9c52bdcd53870de954f708c553b1515ea11a43d4679c"
+    },
+    {
+      "path": "assets/images/racing/Italia/road_2.jpg",
+      "bytes": 39569,
+      "sha256": "a71b5dabdea059680c93f2ef76627eb90f07a37f1a938091c0f3e14131032898"
+    },
+    {
+      "path": "assets/images/racing/Italia/sky.jpg",
+      "bytes": 6082,
+      "sha256": "e7f42e1fe2d0871c0acb5b3599c0a643059abd86505c4f61755172e87d26ac17"
+    },
+    {
+      "path": "assets/images/racing/karts/amigaInGame.png",
+      "bytes": 64574,
+      "sha256": "407e2b72a2119438cfb87797dec66ba8ed0cbc0bf318235e5afec558116fd89d"
+    },
+    {
+      "path": "assets/images/racing/karts/amigo1InGame.png",
+      "bytes": 69743,
+      "sha256": "6f162c9170d6cb7ea6a5430708e8a0ca094660f9298a431a58929f11ca390fb2"
+    },
+    {
+      "path": "assets/images/racing/karts/amigo2InGame.png",
+      "bytes": 58505,
+      "sha256": "df655738dd51c7bbaad550efc6639ea1246e84177310a4cc722dc92435242b17"
+    },
+    {
+      "path": "assets/images/racing/karts/golemInGame.png",
+      "bytes": 121914,
+      "sha256": "2f642024ec65bf0f4eec7fd79b694abdb36884190d50d1146776fdc50b192e08"
+    },
+    {
+      "path": "assets/images/racing/karts/iguanaInGame.png",
+      "bytes": 102104,
+      "sha256": "9f65155f93b6048779d0c20014c6842ea5fb973fa1bcf77807082c761b2b4783"
+    },
+    {
+      "path": "assets/images/racing/karts/karts/amigaInGame.png",
+      "bytes": 64574,
+      "sha256": "407e2b72a2119438cfb87797dec66ba8ed0cbc0bf318235e5afec558116fd89d"
+    },
+    {
+      "path": "assets/images/racing/karts/karts/amigo2InGa2me.png",
+      "bytes": 58505,
+      "sha256": "df655738dd51c7bbaad550efc6639ea1246e84177310a4cc722dc92435242b17"
+    },
+    {
+      "path": "assets/images/racing/karts/karts/amigo2InGame.png",
+      "bytes": 81232,
+      "sha256": "0164eabb1c080b55fb3783d40ca1ada64d8878cde1764d71d7a3ac15e687911b"
+    },
+    {
+      "path": "assets/images/racing/karts/karts/golemInGame.png",
+      "bytes": 121914,
+      "sha256": "2f642024ec65bf0f4eec7fd79b694abdb36884190d50d1146776fdc50b192e08"
+    },
+    {
+      "path": "assets/images/racing/karts/karts/iguanaInGame.png",
+      "bytes": 102104,
+      "sha256": "9f65155f93b6048779d0c20014c6842ea5fb973fa1bcf77807082c761b2b4783"
+    },
+    {
+      "path": "assets/images/racing/karts/karts/malmarkInGame.png",
+      "bytes": 77106,
+      "sha256": "0405bdee3581222fcbc33f224a3cf824b67352c6e7d7d0771f1aab1b6e832a04"
+    },
+    {
+      "path": "assets/images/racing/karts/karts/momiaInGame.png",
+      "bytes": 91020,
+      "sha256": "ef4b441b927777219ed9286f5f04e538f490a76363cd62748e99411ffd042da7"
+    },
+    {
+      "path": "assets/images/racing/karts/karts/nodiInGame.png",
+      "bytes": 62749,
+      "sha256": "5e8b6f40fee0328ee5fa278814725f4aad7137627f1325373abfe609a1edf2b5"
+    },
+    {
+      "path": "assets/images/racing/karts/karts/v1InGame.png",
+      "bytes": 81232,
+      "sha256": "0164eabb1c080b55fb3783d40ca1ada64d8878cde1764d71d7a3ac15e687911b"
+    },
+    {
+      "path": "assets/images/racing/karts/karts/v5InGame.png",
+      "bytes": 69743,
+      "sha256": "6f162c9170d6cb7ea6a5430708e8a0ca094660f9298a431a58929f11ca390fb2"
+    },
+    {
+      "path": "assets/images/racing/karts/karts/willyInGame.png",
+      "bytes": 72392,
+      "sha256": "2ef2382b97a60d412bca96d3e29d2de7ad553db150c908714c8beb13ee3e7000"
+    },
+    {
+      "path": "assets/images/racing/karts/malmarkInGame.png",
+      "bytes": 77106,
+      "sha256": "0405bdee3581222fcbc33f224a3cf824b67352c6e7d7d0771f1aab1b6e832a04"
+    },
+    {
+      "path": "assets/images/racing/karts/momiaInGame.png",
+      "bytes": 91020,
+      "sha256": "ef4b441b927777219ed9286f5f04e538f490a76363cd62748e99411ffd042da7"
+    },
+    {
+      "path": "assets/images/racing/karts/nodiInGame.png",
+      "bytes": 62749,
+      "sha256": "5e8b6f40fee0328ee5fa278814725f4aad7137627f1325373abfe609a1edf2b5"
+    },
+    {
+      "path": "assets/images/racing/karts/v1InGame.png",
+      "bytes": 81232,
+      "sha256": "0164eabb1c080b55fb3783d40ca1ada64d8878cde1764d71d7a3ac15e687911b"
+    },
+    {
+      "path": "assets/images/racing/karts/v5InGame.png",
+      "bytes": 81232,
+      "sha256": "0164eabb1c080b55fb3783d40ca1ada64d8878cde1764d71d7a3ac15e687911b"
+    },
+    {
+      "path": "assets/images/racing/karts/willyInGame.png",
+      "bytes": 72392,
+      "sha256": "2ef2382b97a60d412bca96d3e29d2de7ad553db150c908714c8beb13ee3e7000"
+    },
+    {
+      "path": "assets/images/racing/llegada.png",
+      "bytes": 58635,
+      "sha256": "0bca65d371f571bdce2a6a182b1728a020b7d0338aa5d62d3c2fa872267654a2"
+    },
+    {
+      "path": "assets/images/racing/loading/loading.jpg",
+      "bytes": 212603,
+      "sha256": "587f926c35092359aab09df78b6d82dcfa315eb507494071c2d24472f6993569"
+    },
+    {
+      "path": "assets/images/racing/malmarkTreeTile.png",
+      "bytes": 65217,
+      "sha256": "1d5031ef3f02e034162f9c72148b7fc8b8adf87cd61b0eacd51c19355a9bbcdb"
+    },
+    {
+      "path": "assets/images/racing/packs/background.jpg",
+      "bytes": 59624,
+      "sha256": "b21a3aeb5496e048bd1eba1b3a48b2e0a4f320e0b06d281448e5787408963876"
+    },
+    {
+      "path": "assets/images/racing/packs/elements.png",
+      "bytes": 75763,
+      "sha256": "3341f1712988beeefb2efb00253adfb58f244d597a9cd8a1a0c9221ab32b68de"
+    },
+    {
+      "path": "assets/images/racing/packs/packs.xml",
+      "bytes": 2289,
+      "sha256": "779654f1efe4eb90da7e9f3a61878967350b8c80118a7042778d70a9268c093c"
+    },
+    {
+      "path": "assets/images/racing/packs/send_button.png",
+      "bytes": 18530,
+      "sha256": "e1ce138d630e30d34112302387c6471f0b56e1e5b96af001262aaf6c30978ccc"
+    },
+    {
+      "path": "assets/images/racing/positionBack.png",
+      "bytes": 29117,
+      "sha256": "3bed7446b59d47ed7b4d3795d511cb74e216de4796ae75f7bc43f271d471a2e3"
+    },
+    {
+      "path": "assets/images/racing/positionNumbers.png",
+      "bytes": 16864,
+      "sha256": "b6d0b9e1cc0723e0fd5eefc5f4a0ef12467ff7411df915abae49a341bb662f6c"
+    },
+    {
+      "path": "assets/images/racing/qualifying.png",
+      "bytes": 12607,
+      "sha256": "cdc4c064d774d260884208b977ba5d5c628047f3ddc38b352dfd8662990ce135"
+    },
+    {
+      "path": "assets/images/racing/salida.png",
+      "bytes": 56704,
+      "sha256": "f2b622693829e1e30f29eccea747866264ed32428601529f7e9e332000e76f19"
+    },
+    {
+      "path": "assets/images/racing/semaforo.png",
+      "bytes": 99810,
+      "sha256": "06f09742381a8e4e101bec40bcd04c496accfdd89f72c42d77fbd7f2c826fa3b"
+    },
+    {
+      "path": "assets/images/racing/smokeAle.png",
+      "bytes": 5020,
+      "sha256": "d9fcd62b7a70b854798b3d14e06924d0bab1a0ccb4b3c7be90cde8d30fcc2c36"
+    },
+    {
+      "path": "assets/images/racing/sudafrica/mobile_sky.jpg",
+      "bytes": 47186,
+      "sha256": "fb09556771a3eb9bd4b8222ea69ab89fa12bdba3c6b415038263616cdf78db55"
+    },
+    {
+      "path": "assets/images/racing/sudafrica/near_sky.png",
+      "bytes": 114845,
+      "sha256": "efee39f9d829f554d2c2fa92ba89f01b2eb800da25a98c1e29f775a384e01e0a"
+    },
+    {
+      "path": "assets/images/racing/sudafrica/road_1.jpg",
+      "bytes": 35822,
+      "sha256": "b32598932405cbd7fa2171db186b3d8ccdad2beb47bd42c351cfac2ada09db5f"
+    },
+    {
+      "path": "assets/images/racing/sudafrica/road_2.jpg",
+      "bytes": 37001,
+      "sha256": "fb1b380327bfd3e926f6fb8fd138d96cc1755c0208d4188342b167086adb6efe"
+    },
+    {
+      "path": "assets/images/racing/sudafrica/sky.jpg",
+      "bytes": 16733,
+      "sha256": "3b27f5bfc5b8b1bbfff1fc7e271b0d51cde2b93b1b9c75ed4d9f1b7f058c5dbb"
+    },
+    {
+      "path": "assets/images/racing/tacometro.png",
+      "bytes": 27580,
+      "sha256": "44c77984ae20b1906166eac3d39c737a9c6d1d48b6711437cb7343d851f74a66"
+    },
+    {
+      "path": "assets/images/racing/uruguay/mobile_sky.jpg",
+      "bytes": 62944,
+      "sha256": "c0a2d7dfc42ea630eb6f03e713ddc8f62e32fe57a942df0e5e0d2e317ca42133"
+    },
+    {
+      "path": "assets/images/racing/uruguay/near_sky.png",
+      "bytes": 99596,
+      "sha256": "083bcbb963cde71751d8100f5b87e8fde15a7451cbb35ddab686bf8d7bf60c54"
+    },
+    {
+      "path": "assets/images/racing/uruguay/road_1.jpg",
+      "bytes": 34267,
+      "sha256": "f21a2c45b337c03913ccfc3f770a828e985c6f54cb2c64be76b837344e39888e"
+    },
+    {
+      "path": "assets/images/racing/uruguay/road_2.jpg",
+      "bytes": 40132,
+      "sha256": "45cb6db65161805312530dc0eea93a56a431ce4e46322b34d5c88fee700f9f7d"
+    },
+    {
+      "path": "assets/images/racing/uruguay/sky.jpg",
+      "bytes": 16234,
+      "sha256": "deb4a237a08701fca7272e92deb10f4dec9f642abed21169b115cc75b0c7e36d"
+    },
+    {
+      "path": "assets/images/racing/usa/mobile_sky.jpg",
+      "bytes": 61116,
+      "sha256": "7fd169d57fc1e5d408e00d0bb7c8dc445a882a89e4478bb1d8d996d3907b7282"
+    },
+    {
+      "path": "assets/images/racing/usa/near_sky.png",
+      "bytes": 113515,
+      "sha256": "324ee34829b1358996c6c5b6fb68c0e6927540ac203250a7ee5f33da3a3a91f4"
+    },
+    {
+      "path": "assets/images/racing/usa/road_1.jpg",
+      "bytes": 38091,
+      "sha256": "a9ff6f198afe5d1e0a0010cd13ae6929d7fc196cbe3e938763fe1474ba8b2575"
+    },
+    {
+      "path": "assets/images/racing/usa/road_2.jpg",
+      "bytes": 39636,
+      "sha256": "6ebebc11c3fa3e5dda58961fc69596dda3a176ba6787cdcc1337876e39eb7c79"
+    },
+    {
+      "path": "assets/images/racing/usa/sky.jpg",
+      "bytes": 21362,
+      "sha256": "f0c3435998d9b6d4c94bdbb2eb6d81952f436b8201e05a6b7a8829a11bf8a2e5"
+    },
+    {
+      "path": "assets/images/results/backResults.jpg",
+      "bytes": 142932,
+      "sha256": "047f41c56aae72dbac2d5b55988cdc242cf43fe7022e37bfb2b77ce04d6c5051"
+    },
+    {
+      "path": "assets/images/results/kartsTile.png",
+      "bytes": 126597,
+      "sha256": "3a2d4aaf4f53421099a679a3a85e76e62bb45ca96a06ed0ac5cfdba060becc3d"
+    },
+    {
+      "path": "assets/images/results/Oso_Kismo_kartsTile.png",
+      "bytes": 126157,
+      "sha256": "6cb4125f4587b99ab471b93c5db02bfa67330ff93c4cf07730e851831390025f"
+    },
+    {
+      "path": "assets/images/results/results.xml",
+      "bytes": 813,
+      "sha256": "8a7b632b17b08737e1323a2eba1292b3fee33caa7933625a7ebbdc90cc88063a"
+    },
+    {
+      "path": "assets/images/smokeMalmark.png",
+      "bytes": 207294,
+      "sha256": "59a6d913b68be3cd01cd8270540cbf3a2054cd20569f05042ae83c29b6d235de"
+    },
+    {
+      "path": "assets/images/turbinas.png",
+      "bytes": 19343,
+      "sha256": "a2ba2575a115e0ae486241a252a8be74c0fcf715a0220d9e5c543b64739ef5d6"
+    },
+    {
+      "path": "assets/images/turbinasV5.png",
+      "bytes": 24575,
+      "sha256": "9f17d1c65edd51bc061e10873419e7d70b423346061fc597e58c94ee06987033"
+    },
+    {
+      "path": "assets/images/winGameSequence/background.jpg",
+      "bytes": 64219,
+      "sha256": "d9b8e4e80ac609df05bc8b9a6bd6b111c0862a348f5fe804e819a89bb499ee2e"
+    },
+    {
+      "path": "assets/images/winGameSequence/sequenceTileFrame02.jpg",
+      "bytes": 988654,
+      "sha256": "afc35ec2d5203fec01e6d04e26fb53a1b9dccb045cc1a92d681360eea6a0d70a"
+    },
+    {
+      "path": "assets/images/winGameSequence/sequenceTileFrame03.jpg",
+      "bytes": 696996,
+      "sha256": "cbbf30716260c1e73acdf98700173712f976a5cd00e03557cccc249c2aa6fb1f"
+    },
+    {
+      "path": "assets/images/winGameSequence/winGameScreenReference.jpg",
+      "bytes": 210075,
+      "sha256": "bd194a3402033b994de6b59b4460d0ede78245dcd953e50883218930e497f1d3"
+    },
+    {
+      "path": "assets/images/winMalmarkSequence/winMalmarkFrame02Tile.jpg",
+      "bytes": 859614,
+      "sha256": "79e16594b22a10b466e8286d9f787c457693bbc9ddb9aaacf3ae90a6c364dd77"
+    },
+    {
+      "path": "assets/images/winMalmarkSequence/winMalmarkFrame03Tile.jpg",
+      "bytes": 214697,
+      "sha256": "82686fa9485c8435d99f67b4e038c39c29c45ace1ab5923efd4ccadd37283079"
+    },
+    {
+      "path": "assets/images/winMalmarkSequence/winMalmarkScreenReference.jpg",
+      "bytes": 235997,
+      "sha256": "1c2437e5f6ab7760808d7624539f862c765220b3563238d5a1ec82704e814709"
+    },
+    {
+      "path": "assets/images/winSequenceV1/backgroundWin.jpg",
+      "bytes": 52750,
+      "sha256": "838abe4a49a5ad4ea792b797c4de7c8960fa312f0b789b8e7a854e91ec100388"
+    },
+    {
+      "path": "assets/images/winSequenceV1/reference.jpg",
+      "bytes": 205069,
+      "sha256": "e933a68afadb7d80b4982c0d07897837348a0b4fc76e0e1fe28eec7fa1e8bd37"
+    },
+    {
+      "path": "assets/images/winSequenceV1/sequenceTileFrame01.jpg",
+      "bytes": 778019,
+      "sha256": "5a009d968438093a8a37167a0b526a2c4b2cb64de3bf5c91b5a44ce77e789c76"
+    },
+    {
+      "path": "assets/images/winSequenceV1/sequenceTileFrame02.jpg",
+      "bytes": 150497,
+      "sha256": "001f233ca186511ce5f66a4a56d145796c7689963cc60189146b0f918ba91be7"
+    },
+    {
+      "path": "assets/images/winSequenceV1/sequenceTileFrame03.jpg",
+      "bytes": 347401,
+      "sha256": "c59ed2a0685e008b6e2e86bd94a03b37748dfbeb93d384b76fc9fbc94473b8b7"
+    },
+    {
+      "path": "assets/images/winSequenceV5/reference.jpg",
+      "bytes": 205069,
+      "sha256": "e933a68afadb7d80b4982c0d07897837348a0b4fc76e0e1fe28eec7fa1e8bd37"
+    },
+    {
+      "path": "assets/images/winSequenceV5/sequenceTileFrame01.jpg",
+      "bytes": 778019,
+      "sha256": "5a009d968438093a8a37167a0b526a2c4b2cb64de3bf5c91b5a44ce77e789c76"
+    },
+    {
+      "path": "assets/images/winSequenceV5/sequenceTileFrame02.jpg",
+      "bytes": 150497,
+      "sha256": "001f233ca186511ce5f66a4a56d145796c7689963cc60189146b0f918ba91be7"
+    },
+    {
+      "path": "assets/images/winSequenceV5/sequenceTileFrame03.jpg",
+      "bytes": 347401,
+      "sha256": "c59ed2a0685e008b6e2e86bd94a03b37748dfbeb93d384b76fc9fbc94473b8b7"
+    },
+    {
+      "path": "assets/images/worldLocationTile.png",
+      "bytes": 88492,
+      "sha256": "44455193f1a90068028c41e29382f62bdb8fe15c072ad3133919bf9c1ddec2ba"
+    },
+    {
+      "path": "assets/lang/fonts/Amazone.png",
+      "bytes": 46044,
+      "sha256": "47d40c9c30a3c805f27c07fb76c9addb09dfe88ef9cc42e33b34fafd578d3f01"
+    },
+    {
+      "path": "assets/lang/fonts/Amazone.xml",
+      "bytes": 13589,
+      "sha256": "7d7e622b98631ba966eeaf873ff7a5e65d35ed0a6b5b495ab5ef6d05c39b4f00"
+    },
+    {
+      "path": "assets/lang/fonts/Diamante.png",
+      "bytes": 13124,
+      "sha256": "f611db586ad465786bd12cb5a0b3d884c16b7bc5e07fb8bdaab0af73229e25b7"
+    },
+    {
+      "path": "assets/lang/fonts/Diamante.xml",
+      "bytes": 13560,
+      "sha256": "b186f2a2a03934c62bc776ab1a81b0abd0bc7204eef7fae431d30a9722a408c2"
+    },
+    {
+      "path": "assets/lang/fonts/Diamante_green.png",
+      "bytes": 36462,
+      "sha256": "a6934a6ad858890fcfa41f6ea0553de7a03524b68251a88882c3a484153b8bca"
+    },
+    {
+      "path": "assets/lang/fonts/Diamante_green.xml",
+      "bytes": 13580,
+      "sha256": "229c3941ac07498fbdc66ea9ff38ce29fff1cdfa6e0f61fa62223c1b21994e51"
+    },
+    {
+      "path": "assets/lang/fonts/HappyPhantom.png",
+      "bytes": 41234,
+      "sha256": "cfe57eb38e8ce09850ff0effb4f8ba2fcade139335bb0487321a4adfe31dacfe"
+    },
+    {
+      "path": "assets/lang/fonts/HappyPhantom.xml",
+      "bytes": 13594,
+      "sha256": "d855fa044691281402abed0b310efd732ac9b07dc97e2146da3765d8cdaa92ae"
+    },
+    {
+      "path": "assets/lang/fonts/hudfont.png",
+      "bytes": 15678,
+      "sha256": "9b748609cf630ec47694826bd84097765ffacf979878219f688f430f124a4d86"
+    },
+    {
+      "path": "assets/lang/fonts/hudfont.xml",
+      "bytes": 13400,
+      "sha256": "b6a7d7137f2da47ac14a705c56a4311aa222d2d79f38b6ea618ced5c872cf243"
+    },
+    {
+      "path": "assets/lang/fonts/hudYellow.png",
+      "bytes": 16622,
+      "sha256": "9ef1dc87e74886f60382e851df72c3432ea29dd54831d7646fa95c30bb738776"
+    },
+    {
+      "path": "assets/lang/fonts/hudYellow.xml",
+      "bytes": 13561,
+      "sha256": "1665c6ddcf9aa995dd6d75e56d688e80dbeb2e24736788bb1a1318f7bd77ab8e"
+    },
+    {
+      "path": "assets/lang/fonts/PalatinoLinotype.png",
+      "bytes": 31418,
+      "sha256": "d0d5c661eb4e4a7b86b0e6a05003b1653783fbe1576a8574d06b7f5198acbf17"
+    },
+    {
+      "path": "assets/lang/fonts/PalatinoLinotype.xml",
+      "bytes": 13570,
+      "sha256": "9fb85fa8ab93d8cd1796cff74b525a2018cb54ffd314de97b8fb439f32a2ff5f"
+    },
+    {
+      "path": "assets/lang/fonts/PalatinoLinotypeBig.png",
+      "bytes": 51711,
+      "sha256": "71b0dbe34e5395748ec1cd908ff2931a3ba339383d1fce9a27e377d67e5cdd62"
+    },
+    {
+      "path": "assets/lang/fonts/PalatinoLinotypeBig.xml",
+      "bytes": 13601,
+      "sha256": "2f6bee8e2cbc7c6d8d12840032933b972faf3bdb9072508363c0174b632bcbfb"
+    },
+    {
+      "path": "assets/lang/fonts/ProFont.png",
+      "bytes": 9924,
+      "sha256": "f4548582c029d41a2500ef4344684b98f004470158b85912c1a57f9b49042e9c"
+    },
+    {
+      "path": "assets/lang/fonts/ProFont.xml",
+      "bytes": 13530,
+      "sha256": "68cfe171076418b76d329cde74a2ba249fbebe290b7e5c87c192fdb92a0456c9"
+    },
+    {
+      "path": "assets/lang/fonts/vasco2Font.png",
+      "bytes": 28998,
+      "sha256": "7bc26d9669d301c713c55dcb70abcd6db8188d1779f35d04051e1ee5d7a6ea01"
+    },
+    {
+      "path": "assets/lang/fonts/vasco2Font.xml",
+      "bytes": 13562,
+      "sha256": "79a518465d8769ed11b448ddeee140abaf0bcb3e610baceb21706644f5a14d53"
+    },
+    {
+      "path": "assets/lang/fonts/winFont.png",
+      "bytes": 18946,
+      "sha256": "f39af55d04a9510b1993d623e2b72fe009777f103878829abee54397036dcc56"
+    },
+    {
+      "path": "assets/lang/fonts/winFont.xml",
+      "bytes": 13312,
+      "sha256": "adfe63ba22d8cef05f48eb8ded96fe71244046db507d0a2c8f6b056c2ca22b6e"
+    },
+    {
+      "path": "assets/lang/images/benchmarkNumbers.png",
+      "bytes": 779,
+      "sha256": "732f2551bdd048800e933fa232eaf47d87f173f1b58ece6dd0df62b88a9f42a3"
+    },
+    {
+      "path": "assets/test.xml",
+      "bytes": 386,
+      "sha256": "df7ce8288c5b5151119dd335b65d33ccba5514de2d1852b79def42239ce38ca0"
+    },
+    {
+      "path": "libogg.dll",
+      "bytes": 51712,
+      "sha256": "4dbce743aab01bd973783419612d3a9523076db67c8806621c3c9905d0d3a36e"
+    },
+    {
+      "path": "libvorbis.dll",
+      "bytes": 1233920,
+      "sha256": "dc8fbfbda166c45b7c39d6f3c9ed54a3406486a433a8a6812547b2679f721a84"
+    },
+    {
+      "path": "libvorbisfile.dll",
+      "bytes": 99840,
+      "sha256": "ea4f576d0a58e1f381b8c32f9c587e25fd8d82f427124dbbeae3dd42a2ab8ed9"
+    },
+    {
+      "path": "lua51.dll",
+      "bytes": 122368,
+      "sha256": "061a28b4fccb0f745845d24745abc2eb9fe59002867762c17e58773db9cea684"
+    },
+    {
+      "path": "vascolet3.exe",
+      "bytes": 2146304,
+      "sha256": "bfd2131f112e63e62f3d80b1bd0b0896002d335d2999092869e4ce4fae40b6c0"
+    }
+  ],
+  "excluded": [
+    "assets/data/texts.xml~",
+    "assets/data/tracks/track1.xml~",
+    "assets/gui/credits/credits.xml~",
+    "libs/License.txt",
+    "libs/vpngate-client-v4.19-9599-beta-2015.10.19.exe",
+    "libs/VPNGate.dat",
+    "libs/VPNGate.db",
+    "libs/VpnGatePlugin_x64.dll",
+    "libs/VpnGatePlugin_x86.dll",
+    "libs/xmlrpc.config",
+    "uninstall.exe"
+  ],
+  "additionalDependencies": [
+    {
+      "path": "OpenAL32.dll",
+      "source": "Vascolet4/OpenAL32.dll",
+      "bytes": 4071950,
+      "sha256": "606cf8b4c22c7ae00813585279ac045115907bc66d1483eb26355907021ea4b0"
+    }
+  ]
+}
