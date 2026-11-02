@@ -1,0 +1,121 @@
+{
+  "elfSha256": "f209f0f74a4b3a18daf94ce148e44a8cc55881eb1a04fa76a8d1233bbb3f3e48",
+  "targetFPS": 60,
+  "symbols": {
+    "instance": 137249692,
+    "getLimit": 136379276,
+    "setLimit": 136379208
+  },
+  "colorAcceleration": {
+    "forward": {
+      "address": 136354006,
+      "sha256": "7791dd84ea98873321660199534e20f48e221653a8ceee5cc9cfb65610e54592",
+      "binary32Coefficients": [
+        0.29899999499320984,
+        0.5870000123977661,
+        0.11400000005960464,
+        -0.16899999976158142,
+        -0.3319999873638153,
+        0.5,
+        128.0,
+        -0.4189999997615814,
+        -0.08129999786615372
+      ]
+    },
+    "inverse": {
+      "address": 136354386,
+      "sha256": "fe355d560b3fef544af86e2ef0af86d53395a1382931bbf091ae358532d73557",
+      "binary32Coefficients": [
+        128.0,
+        1.4075000286102295,
+        -0.34549999237060547,
+        -0.7168999910354614,
+        1.7790000438690186
+      ]
+    }
+  },
+  "rendererHooks": {
+    "draw": {
+      "symbol": "_ZN3bat21SDLOverlayRendererYUV13renderTextureENS_20TextureRenderingMode4EnumERKNS_7TextureERKNS_7BatRectERKNS_7Vector2ERKNS_9Matrix3x2EfRKNS_5ColorENS_8TintMode4EnumENS_9BlendMode4EnumEb",
+      "address": 136472336,
+      "sha256": "42a5ed6ee9bb66ba420cba81ac325140d3b292ba0eebe4d734ac7bc16e0744ad"
+    },
+    "clear": {
+      "symbol": "_ZN3bat21SDLOverlayRendererYUV10clearFrameEv",
+      "address": 136471540,
+      "sha256": "bee07b0feb8a2887c890d8d08fb6944761e553d6f23fe51c33c189ccf561b665"
+    },
+    "line": {
+      "symbol": "_ZN3bat21SDLOverlayRendererYUV10renderLineERKNS_7Vector2ES3_fRKNS_9Matrix3x2ERKNS_5ColorENS_9BlendMode4EnumEb",
+      "address": 136471660,
+      "sha256": "57c9a7c59747e7f69aad45cdcfb99831dfefae2cf567a93087e32c94d8cc73ee"
+    },
+    "unload": {
+      "symbol": "_ZN3bat13SDLTextureYUV6unloadEv",
+      "address": 136175458,
+      "sha256": "cf680e4b5db7bb805c283ab1419ec6c7bdd1095f6c8e6001204a8ddd73e547ce"
+    },
+    "data": {
+      "symbol": "_ZNK3bat13SDLTextureYUV8getpDataEv",
+      "address": 136172374,
+      "sha256": "77a5a2b0adb2bb596cdffe14aa81e803a9393c0c9a810fbbf144dbea8a2f858b"
+    }
+  },
+  "axisAlignedMath": {
+    "multiply": {
+      "symbol": "_ZN3bat9Matrix3x2mLERKS0_",
+      "address": 136267352,
+      "sha256": "6d62c61004fda9ee35d3ff7377b670539f623ae462a3ce18b857dddd4fdcdee3"
+    },
+    "premultiply": {
+      "symbol": "_ZN3bat9Matrix3x27preMultERKS0_",
+      "address": 136267704,
+      "sha256": "2859e11984a180e5af853ba4498b25897ff04cd2a63c88b54e91a8ce267e7ecf"
+    },
+    "transform": {
+      "symbol": "_ZNK3bat9Matrix3x29transformERNS_7Vector2E",
+      "address": 136268620,
+      "sha256": "264b7635cd501e21b2e594491a6350760d640f3e165b01a75409bece7ed49c23"
+    },
+    "scale": {
+      "symbol": "_ZN3bat9Matrix3x25scaleEff",
+      "address": 136268252,
+      "sha256": "e250f5dea3325b271d1418eb04acd9c91bf3f852d02045c1069d3b96d608fa79"
+    },
+    "translate": {
+      "symbol": "_ZN3bat9Matrix3x29translateEff",
+      "address": 136268582,
+      "sha256": "b22fc773d3c970d3036f05ef0b3e6fb5e8ae0bad75a4bb8d531c790f040ce70a"
+    },
+    "color_product": {
+      "symbol": "_ZNK3bat5ColormlERKS0_",
+      "address": 136357064,
+      "sha256": "4f1a666d2be8b16f12df4895ea7c804639185ec9cef8b5c9af0dcd171e1d6dbe"
+    },
+    "color_scale": {
+      "symbol": "_ZNK3bat5ColormlEf",
+      "address": 136356978,
+      "sha256": "835a4be0ccf99e9082fb14556b91f74a68cf5fe6f07a0cb0705833db5f5bda37"
+    },
+    "color_assign_product": {
+      "symbol": "_ZN3bat5ColormLERKS0_",
+      "address": 136356618,
+      "sha256": "390a42c639beb73cdcc0212ead2863046484be4f46eec065a911c4bf129a4ccf"
+    },
+    "color_assign_scale": {
+      "symbol": "_ZN3bat5ColormLEf",
+      "address": 136356704,
+      "sha256": "5c8eabfeea0df7bae9ce09e19cacdc543e5b97ae3130a31e13e49a8f8ddcb271"
+    },
+    "track_hill": {
+      "symbol": "_ZNK9TrackData9getHillAtEf",
+      "address": 134823056,
+      "sha256": "dbaa0acdcb75165e083cbcfb8f07ded3c0f8d16d681fa89c55061308a8e6c5e7"
+    },
+    "track_curve": {
+      "symbol": "_ZNK9TrackData10getCurveAtEf",
+      "address": 134823616,
+      "sha256": "02eff0753576270a8f4708f012186a1328824116b35ec6d405822bd7f3c8137a"
+    }
+  }
+}
