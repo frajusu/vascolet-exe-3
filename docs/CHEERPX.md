@@ -33,3 +33,26 @@ volver a exportarla. No se certificó una partida completa ni un teléfono.
 Para recompilar: configurar `ZIG` con Zig 0.13.0 y ejecutar
 `python native/cheerpx/rebuild.py`. `python build.py` prepara la página.
 CheerpX se carga desde su CDN oficial y no se redistribuye en este repositorio.
+
+## Experimento separado: recompilación estática
+
+Se investigó traducir las instrucciones del ELF original a C y compilar ese C
+a WebAssembly antes de jugar, usando el traductor MIT de
+[Djsmk123/pop-two-thrones-browser](https://github.com/Djsmk123/pop-two-thrones-browser)
+con un adaptador ELF local. No es una reescritura de mapas o reglas.
+
+La prueba ejecutó `Color::getYUV` y `TrackData::getHillAt` originales en Chromium
+sin CheerpX ni Wine: 131.072 verificaciones frente a cálculos de referencia.
+Las 65.536 llamadas de cada función tardaron aproximadamente 7–8 ms en PC.
+**Esto no es una medición de FPS ni un port jugable.** El traductor usa doubles
+para x87 y todavía no garantiza equivalencia general de precisión extendida.
+
+La auditoría genera código para 9.177 funciones del ejecutable. No prueba que
+todas funcionen: quedan 466 símbolos importados, inicialización de objetos,
+excepciones C++, despacho de vtables, memoria y adaptación al bucle del navegador.
+Las bibliotecas compartidas no están cubiertas por ese conteo. El motor AOT
+no está seleccionado en la página ni ha reemplazado el motor actual.
+
+El puente publicado sí incorpora menor presión de memoria: audio bajo demanda
+y reutilizado por URL, canales liberados en errores de audio, y un buffer
+gráfico reutilizable. La lentitud de la carrera sigue pendiente de resolución.
