@@ -45,7 +45,7 @@ function renderer(){
     else if(kind===2){for(let y=0;y<h;y++){let row=ptr+y*pitch,at=y*w*4;for(let x=0;x<w;x++){const value=heap[row]|heap[row+1]<<8;out[at]=(value>>8&248)|(value>>13&7);out[at+1]=(value>>3&252)|(value>>9&3);out[at+2]=(value<<3&248)|(value>>2&7);out[at+3]=255;row+=2;at+=4;}}}
     else if(kind===3){for(let y=0;y<h;y++){let row=ptr+y*pitch,at=y*w*4;for(let x=0;x<w;x++){out[at]=heap[row];out[at+1]=heap[row+1];out[at+2]=heap[row+2];out[at+3]=255;row+=4;at+=4;}}}
     else throw Error('Formato de pantalla no soportado');
-    ctx.putImageData(image,0,0);context.drawImage(source,0,0,dw,dh);stats.frames++;stats.wasmBytes=heap.buffer.byteLength;
+    ctx.putImageData(image,0,0);context.drawImage(source,0,0,dw,dh);stats.frames++;stats.wasmBytes=heap.buffer.byteLength;stats.workerHeapBytes=performance.memory?performance.memory.usedJSHeapSize:-1;
     const id=++frameID,bitmap=canvas.transferToImageBitmap();postMessage({type:'frame',id,bitmap,stats:{...stats}},[bitmap]);waitFor(P.FRAME_ACK,id,20);mod._renew_entry_budget();
   }};
 }
