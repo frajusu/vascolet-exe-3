@@ -4,6 +4,7 @@ let game, settings, currentMode, currentRun, started, ready = false, watchdog;
 const logs = [];
 const pending = new Map();
 let serial = 0;
+let metricsText = '', parentUA = 0;
 window.vascoletBackup = null;
 function note(text) { logs.push(String(text)); if (logs.length > 600) logs.shift(); }
 function preference(key, fallback) { try { return JSON.parse(localStorage.getItem(key)) ?? fallback; } catch { return fallback; } }
@@ -72,8 +73,10 @@ window.addEventListener('message', event => {
     if(!ready && ['mt','xo'].includes(currentMode) && settings.engine==='auto' && !window.vascoletBackup) { note(`${modeLabel()} no disponible: ${message.text}. Cambio a JIT de un hilo.`); settings.engine='jit'; launch(); }
     else failure(message.text);
   }
-  if (message.type === 'metrics') $('metrics').textContent = message.text;
+  if (message.type === 'metrics') { metricsText = message.text; $('metrics').textContent = metricsText + memoryLine(); }
 });
+const memoryLine = () => parentUA ? `\nMemoria total pestaña: ${(parentUA / 1048576).toFixed(1)} MiB` : '';
+if (performance.measureUserAgentSpecificMemory) setInterval(() => { try { void performance.measureUserAgentSpecificMemory().then(bytes => { parentUA = bytes; $('metrics').textContent = metricsText + memoryLine(); }).catch(() => {}); } catch {} }, 10000);
 $('menu-toggle').onclick = () => menu($('menu').hidden);
 $('close-menu').onclick = () => menu(false);
 document.addEventListener('keydown', event => { if (event.key === 'Escape' && !$('menu').hidden) menu(false); });
