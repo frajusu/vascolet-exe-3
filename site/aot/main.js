@@ -34,10 +34,13 @@ async function handleRPC(message,w,token){
     }else if(message.method==='image'){
       const bitmap=await createImageBitmap(new Blob([message.raw]));try{const bytes=bitmap.width*bitmap.height*4;if(bytes>P.PIXEL_BYTES)throw Error('La imagen supera el límite de 16 MiB');const image=new OffscreenCanvas(bitmap.width,bitmap.height),ctx=image.getContext('2d');ctx.drawImage(bitmap,0,0);w.bytes.set(ctx.getImageData(0,0,bitmap.width,bitmap.height).data);Atomics.store(w.c,P.IMAGE_W,bitmap.width);Atomics.store(w.c,P.IMAGE_H,bitmap.height);Atomics.store(w.c,P.IMAGE_LENGTH,bytes);result=1;}finally{bitmap.close();imageRpcClosed++;}
     }else if(message.method==='soundDuration'){
-      const name=normalize(args[0]);result=durations.get(name)||0;if(!result){await ensureAudio(name);result=backend.soundDuration(name);}
+      const name=normalize(args[0]);result=durations.get(name)||0;if(!result){try{await ensureAudio(name);}catch{}result=backend.soundDuration(name);}
     }else if(message.method==='play'){
       await ensureAudio(args[1]);if(token!==serial||!worker)throw Error('Prueba detenida');result=backend.play(...args);backend.trimDecodedSounds?.(32*1024*1024);
-    }else if(['init','cursor','openAudio','allocateChannels','halt','freeSound','pause','volume','playing'].includes(message.method)){
+    }else if(message.method==='playMusic'){
+      try{await ensureAudio(args[0]);}catch{}
+      if(token!==serial||!worker)throw Error('Prueba detenida');result=backend.playMusic(...args);backend.trimDecodedSounds?.(32*1024*1024);
+    }else if(['init','cursor','openAudio','allocateChannels','halt','freeSound','pause','volume','playing','haltMusic','pauseMusic','musicVolume','musicPlaying','musicFinished'].includes(message.method)){
       if(token!==serial||!worker)throw Error('Prueba detenida');result=backend[message.method](...args);if(result===undefined)result=0;
     }else throw Error('Operación del puente no soportada: '+message.method);
     publishFinished();

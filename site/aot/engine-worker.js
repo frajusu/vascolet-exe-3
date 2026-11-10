@@ -26,9 +26,12 @@ function saveIfRequested(){
 }
 function installSaveHooks(){
   const home=path=>typeof path==='string'&&path.startsWith(gameHome+'/');
-  const close=mod.FS.close.bind(mod.FS);mod.FS.close=stream=>{const changed=home(stream.path)&&(stream.flags&3)!==0;const result=close(stream);if(changed)rpc('persist',[saveFiles()]);return result;};
-  const rename=mod.FS.rename.bind(mod.FS);mod.FS.rename=(from,to)=>{const result=rename(from,to);if(home(from)||home(to))rpc('persist',[saveFiles()]);return result;};
-  const unlink=mod.FS.unlink.bind(mod.FS);mod.FS.unlink=path=>{const result=unlink(path);if(home(path))rpc('persist',[saveFiles()]);return result;};
+  /* A storage failure (quota, private mode, blocked DB) must never crash the
+   * guest mid-fclose: warn and keep playing. */
+  const persist=()=>{try{rpc('persist',[saveFiles()]);}catch(error){postMessage({type:'log',line:'Aviso de guardado: '+error});}};
+  const close=mod.FS.close.bind(mod.FS);mod.FS.close=stream=>{const changed=home(stream.path)&&(stream.flags&3)!==0;const result=close(stream);if(changed)persist();return result;};
+  const rename=mod.FS.rename.bind(mod.FS);mod.FS.rename=(from,to)=>{const result=rename(from,to);if(home(from)||home(to))persist();return result;};
+  const unlink=mod.FS.unlink.bind(mod.FS);mod.FS.unlink=path=>{const result=unlink(path);if(home(path))persist();return result;};
 }
 function eventQueue(){
   const held=new Set(),pending=[];let buttons=0,peek=null;
@@ -64,12 +67,12 @@ function host(){const video=renderer();let imageName='',image=null;
     init:flags=>rpc('init',[flags]),resize:video.resize,caption(text){stats.lastTitle=text;postMessage({type:'caption',text});},cursor:mode=>rpc('cursor',[mode]),
     image(path){path=normalize(path);if(path!==imageName){const raw=mod.FS.readFile('/game/'+path);rpc('image',[path],raw);const w=Atomics.load(control,P.IMAGE_W),h=Atomics.load(control,P.IMAGE_H),length=Atomics.load(control,P.IMAGE_LENGTH);if(w<1||h<1||length!==w*h*4||length>P.PIXEL_BYTES)throw Error('Imagen fuera del límite');imageName=path;image={w,h,pixels:sharedPixels.subarray(0,length)};stats.images++;stats.imageBytesCopied+=length;}return image;},
     present:video.present,shouldStop:stopped,
-    openAudio:(...args)=>rpc('openAudio',args),allocateChannels:n=>rpc('allocateChannels',[n]),soundDuration:path=>rpc('soundDuration',[normalize(path)]),play:(...args)=>rpc('play',args),halt:n=>rpc('halt',[n]),freeSound:n=>rpc('freeSound',[n]),pause:(...args)=>rpc('pause',args),volume:(...args)=>rpc('volume',args),playing:(...args)=>rpc('playing',args)
+    openAudio:(...args)=>rpc('openAudio',args),allocateChannels:n=>rpc('allocateChannels',[n]),soundDuration:path=>rpc('soundDuration',[normalize(path)]),play:(...args)=>rpc('play',args),halt:n=>rpc('halt',[n]),freeSound:n=>rpc('freeSound',[n]),pause:(...args)=>rpc('pause',args),volume:(...args)=>rpc('volume',args),playing:(...args)=>rpc('playing',args),playMusic:(...args)=>rpc('playMusic',args),haltMusic:()=>rpc('haltMusic',[]),pauseMusic:v=>rpc('pauseMusic',[v]),musicVolume:v=>rpc('musicVolume',[v]),musicPlaying:()=>rpc('musicPlaying',[]),musicFinished:()=>rpc('musicFinished',[])
   };
 }
 onmessage=async({data})=>{
   if(data.type!=='start')return;control=new Int32Array(data.control);input=new Uint8Array(data.input);audio=new Int32Array(data.audio);sharedPixels=new Uint8Array(data.pixels);framePixels=data.frame?new Uint8Array(data.frame):null;numberView=new DataView(data.control);
-  gameNumber=Number(data.game||2);if(![2,3].includes(gameNumber))throw Error('Juego no compatible');gameHome='/home/vascolet'+gameNumber;
+  gameNumber=Number(data.game||2);if(![1,2,3,4].includes(gameNumber))throw Error('Juego no compatible');gameHome='/home/vascolet'+gameNumber;
   try{
     const base=data.base;stats.runtimeBase=base;importScripts(base+'worker-runtime.js');postMessage({type:'progress',text:'Cargando el módulo y los recursos originales…'});
     mod=await createVascoletAOTWorker({locateFile:file=>base+file,aotHost:host(),print:line=>postMessage({type:'log',line}),printErr:line=>postMessage({type:'log',line})});
