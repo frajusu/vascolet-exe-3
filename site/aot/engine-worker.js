@@ -43,12 +43,18 @@ function finishedQueue(){return {get length(){return Atomics.load(control,P.AUDI
 function renderer(){
   const canvas=new OffscreenCanvas(512,384),context=canvas.getContext('2d',{alpha:false}),source=new OffscreenCanvas(1,1),ctx=source.getContext('2d',{alpha:false});let image;
   return {resize(w,h){canvas.width=w;canvas.height=h;postMessage({type:'resize',w,h});},present(heap,ptr,w,h,pitch,kind,dw,dh){
-    if(stopped())throw Error('Prueba detenida');if(!image||source.width!==w||source.height!==h){source.width=w;source.height=h;image=ctx.createImageData(w,h);}const out=image.data;
+    if(stopped())throw Error('Prueba detenida');
+    if(kind===4){/* wasm pre-converted (rgb565/YUY2->RGBA): zero-copy ImageData view, no JS pixel loop */
+      ctx.putImageData(new ImageData(new Uint8ClampedArray(heap.buffer,ptr,w*h*4),w),0,0);
+    }else{
+    if(!image||source.width!==w||source.height!==h){source.width=w;source.height=h;image=ctx.createImageData(w,h);}const out=image.data;
     if(kind===1){for(let y=0;y<h;y++){let row=ptr+y*pitch,at=y*w*4;for(let x=0;x<w;x+=2){const u=heap[row+1]-128,v=heap[row+3]-128,c0=(heap[row]-16)*298,c1=(heap[row+2]-16)*298;out[at]=(c0+409*v+128)>>8;out[at+1]=(c0-100*u-208*v+128)>>8;out[at+2]=(c0+516*u+128)>>8;out[at+3]=255;out[at+4]=(c1+409*v+128)>>8;out[at+5]=(c1-100*u-208*v+128)>>8;out[at+6]=(c1+516*u+128)>>8;out[at+7]=255;row+=4;at+=8;}}}
     else if(kind===2){for(let y=0;y<h;y++){let row=ptr+y*pitch,at=y*w*4;for(let x=0;x<w;x++){const value=heap[row]|heap[row+1]<<8;out[at]=(value>>8&248)|(value>>13&7);out[at+1]=(value>>3&252)|(value>>9&3);out[at+2]=(value<<3&248)|(value>>2&7);out[at+3]=255;row+=2;at+=4;}}}
     else if(kind===3){for(let y=0;y<h;y++){let row=ptr+y*pitch,at=y*w*4;for(let x=0;x<w;x++){out[at]=heap[row];out[at+1]=heap[row+1];out[at+2]=heap[row+2];out[at+3]=255;row+=4;at+=4;}}}
     else throw Error('Formato de pantalla no soportado');
-    ctx.putImageData(image,0,0);context.drawImage(source,0,0,dw,dh);stats.frames++;stats.wasmBytes=heap.buffer.byteLength;stats.workerHeapBytes=performance.memory?performance.memory.usedJSHeapSize:-1;
+    ctx.putImageData(image,0,0);
+    }
+    context.drawImage(source,0,0,dw,dh);stats.frames++;stats.wasmBytes=heap.buffer.byteLength;stats.workerHeapBytes=performance.memory?performance.memory.usedJSHeapSize:-1;
     const id=++frameID;
     if(framePixels){
       /* Raw RGBA via shared memory: a per-frame ImageBitmap leaked one GPU texture per frame in Opera's GPU process. */
