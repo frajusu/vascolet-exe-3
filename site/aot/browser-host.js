@@ -78,6 +78,7 @@ window.createAOTBrowserHost = (canvas, {frameLimit=3}={}) => {
     },
     present(heap,ptr,w,h,pitch,kind,dw,dh){
       if(kind===4){/* wasm pre-converted (rgb565/YUY2->RGBA): zero-copy ImageData view, no JS pixel loop */
+        if(source.width!==w||source.height!==h){source.width=w;source.height=h;}
         sourceContext.putImageData(new ImageData(new Uint8ClampedArray(heap.buffer,ptr,w*h*4),w),0,0);
       }else{
       if(!image||source.width!==w||source.height!==h){source.width=w;source.height=h;image=sourceContext.createImageData(w,h);}

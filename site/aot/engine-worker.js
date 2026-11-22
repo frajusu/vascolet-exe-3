@@ -45,6 +45,7 @@ function renderer(){
   return {resize(w,h){canvas.width=w;canvas.height=h;postMessage({type:'resize',w,h});},present(heap,ptr,w,h,pitch,kind,dw,dh){
     if(stopped())throw Error('Prueba detenida');
     if(kind===4){/* wasm pre-converted (rgb565/YUY2->RGBA): zero-copy ImageData view, no JS pixel loop */
+      if(source.width!==w||source.height!==h){source.width=w;source.height=h;}
       ctx.putImageData(new ImageData(new Uint8ClampedArray(heap.buffer,ptr,w*h*4),w),0,0);
     }else{
     if(!image||source.width!==w||source.height!==h){source.width=w;source.height=h;image=ctx.createImageData(w,h);}const out=image.data;
